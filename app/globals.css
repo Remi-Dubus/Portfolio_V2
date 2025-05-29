@@ -4,9 +4,10 @@
   --color-light: #C6C6CF;
   --color-active-light: #4E4E52;
   --color-dark: #070F18;
-  --color-active-dark: #255284;
+  --color-active-dark: #132840;
   --color-interest: #2DD1D1;
   --color-shadow: #0D0C0B;
+  --animate-spin-slow: spin 150s linear infinite;
 }
 
 html {

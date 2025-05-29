@@ -1,8 +1,11 @@
-import Image from "next/image";
+"use client";
+
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gradient-to-b from-shadow via-dark to-active-dark">
+        <Banner />
     </main>
   );
-}
+};
