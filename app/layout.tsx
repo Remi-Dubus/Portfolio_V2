@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { paragraphFont } from "@/assets/fonts";
+import NavBar from "@/components/navigation/NavBar";
 
 export const metadata: Metadata = {
   title: "Portfolio | Rémi Dubus",
@@ -18,8 +19,9 @@ export default function RootLayout({
       <body
         className={`${paragraphFont.className} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
   );
-}
+};
