@@ -3,5 +3,19 @@
     "title": "Hello, i'm Rémi Dubus. I'm a ",
     "job": "junior web developer.",
     "bannerAlt": "animate picture of constellation."
+  },
+  "navbar": {
+    "about": "About",
+    "aboutLink": "/#about",
+    "projects": "My projects",
+    "projectsLink": "/#projects",
+    "contact": "Contact",
+    "contactLink": "/#contact"
+  },
+  "link": {
+    "linkedinAlt": "Logo of Linkedin",
+    "linkedinLink": "https://www.linkedin.com/in/r-dubus/",
+    "gitHubAlt": "Logo of GitHub",
+    "gitHubLink": "https://github.com/Remi-Dubus"
   }
 }
