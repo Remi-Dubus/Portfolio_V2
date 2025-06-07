@@ -8,6 +8,7 @@
   --color-active-interest: #91FFFF;
   --color-shadow: #0D0C0B;
   --animate-spin-slow: spin 150s linear infinite;
+  --breakpoint-vsm: 20.5rem;
 }
 
 html {
