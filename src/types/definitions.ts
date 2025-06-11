@@ -17,6 +17,14 @@ export type translationType = {
         linkedinLink: string;
         gitHubAlt: string;
         gitHubLink: string;
+    },
+    "about": {
+        "aboutTitle": string;
+        "aboutTextPart1": string;
+        "aboutTextPart2": string;
+        "aboutTextPart3": string;
+        "aboutTextPart4": string;
+        "aboutTextPart5": string;
     }
 };
 
