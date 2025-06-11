@@ -25,5 +25,8 @@
     "aboutTextPart3": "J’ai suivi une formation à la Wild Code School, où j’ai appris les bases solides du développement web, ainsi que les bonnes pratiques pour coder proprement et en équipe.",
     "aboutTextPart4": "Depuis, je continue à pratiquer régulièrement, à me former, à expérimenter. Curieux de nature, j’aime découvrir de nouvelles technologies, me lancer des défis et progresser chaque jour un peu plus.",
     "aboutTextPart5": "En dehors du développement, je suis passionné par les sciences, en particulier l’astronomie, à travers la lecture de revues spécialisées. Je dessine de temps à autre, et je suis un amateur de jeux vidéo, pour leur univers riche et immersif."
+  },
+  "skills": {
+    "skillsTitle": "Compétences"
   }
 }

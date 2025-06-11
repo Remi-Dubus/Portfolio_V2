@@ -25,5 +25,8 @@
     "aboutTextPart3": "I completed a training program at the Wild Code School, where I learned solid foundations in web development, along with best practices for clean and collaborative coding.",
     "aboutTextPart4": "Since then, I’ve continued to practice regularly, to learn, and to experiment. Naturally curious, I enjoy discovering new technologies, taking on challenges, and improving a little more each day.",
     "aboutTextPart5": "Outside of development, I’m passionate about science, especially astronomy, which I explore through reading specialized journals. I occasionally draw, and I'm a fan of video games for their rich and immersive worlds."
+  },
+  "skills": {
+    "skillsTitle": "Skills"
   }
 }

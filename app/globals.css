@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0)
+  }
+  50% {
+    transform: translateY(-8px)
+  }
+}
+
+@keyframes invert-float {
+  0%, 100% {
+    transform: translateY(-8px)
+  }
+  50% {
+    transform: translateY(0px)
+  }
+}
+
 @theme {
   --color-light: #C6C6CF;
   --color-dark: #070F18;
@@ -8,6 +26,8 @@
   --color-active-interest: #91FFFF;
   --color-shadow: #0D0C0B;
   --animate-spin-slow: spin 150s linear infinite;
+  --animate-float: float 8s ease-in-out infinite;
+  --animate-invert-float: invert-float 8s ease-in-out infinite;
   --breakpoint-vsm: 20.5rem;
 }
 

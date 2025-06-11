@@ -25,6 +25,9 @@ export type translationType = {
         "aboutTextPart3": string;
         "aboutTextPart4": string;
         "aboutTextPart5": string;
+    },
+    "skills": {
+        "skillsTitle": string;
     }
 };
 
