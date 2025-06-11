@@ -17,5 +17,13 @@
     "linkedinLink": "https://www.linkedin.com/in/r-dubus/",
     "gitHubAlt": "Logo of GitHub",
     "gitHubLink": "https://github.com/Remi-Dubus"
+  },
+  "about": {
+    "aboutTitle": "About me",
+    "aboutTextPart1": "After nine years in the baking world, I decided to change direction, mainly because of the working conditions.",
+    "aboutTextPart2": "In order to reorient myself, I chose web development, a field that had interested me for a long time and which allowed me to remain in an environment where a product is shaped, just like baking.",
+    "aboutTextPart3": "I completed a training program at the Wild Code School, where I learned solid foundations in web development, along with best practices for clean and collaborative coding.",
+    "aboutTextPart4": "Since then, I’ve continued to practice regularly, to learn, and to experiment. Naturally curious, I enjoy discovering new technologies, taking on challenges, and improving a little more each day.",
+    "aboutTextPart5": "Outside of development, I’m passionate about science, especially astronomy, which I explore through reading specialized journals. I occasionally draw, and I'm a fan of video games for their rich and immersive worlds."
   }
 }

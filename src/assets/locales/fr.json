@@ -17,5 +17,13 @@
     "linkedinLink": "https://www.linkedin.com/in/r-dubus/",
     "gitHubAlt": "Logo de GitHub",
     "gitHubLink": "https://github.com/Remi-Dubus"
+  },
+  "about": {
+    "aboutTitle": "A propos de moi",
+    "aboutTextPart1": "Après neuf années passées dans le monde de la boulangerie, j’ai choisi de changer de voie, principalement en raison des conditions de travail.",
+    "aboutTextPart2": "Afin de me réorienter, j'ai choisi le développement web, un domaine qui m'intéressait depuis longtemps et qui m'a permis de rester dans un environnement où l'on façonne un produit, tout comme en boulangerie.",
+    "aboutTextPart3": "J’ai suivi une formation à la Wild Code School, où j’ai appris les bases solides du développement web, ainsi que les bonnes pratiques pour coder proprement et en équipe.",
+    "aboutTextPart4": "Depuis, je continue à pratiquer régulièrement, à me former, à expérimenter. Curieux de nature, j’aime découvrir de nouvelles technologies, me lancer des défis et progresser chaque jour un peu plus.",
+    "aboutTextPart5": "En dehors du développement, je suis passionné par les sciences, en particulier l’astronomie, à travers la lecture de revues spécialisées. Je dessine de temps à autre, et je suis un amateur de jeux vidéo, pour leur univers riche et immersif."
   }
 }

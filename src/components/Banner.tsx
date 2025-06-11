@@ -12,8 +12,8 @@ export default function Banner() {
                      style={{ backgroundImage: "url(/banner-animation.png" }}
             ></section>
             <section className="p-2 absolute top-1/3 text-xl vsm:text-3xl sm:text-5xl">
-                <h1 className="z-10 inline">{translations.banner.title}</h1>
-                <h2 className="z-10 inline text-interest">{translations.banner.job}</h2>.
+                    <h1 className="z-10 inline">{translations.banner.title}</h1>
+                    <h2 className="z-10 inline text-interest">{translations.banner.job}</h2>
             </section>
         </header>
     )
