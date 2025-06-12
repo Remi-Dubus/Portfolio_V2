@@ -22,16 +22,18 @@ export default function NavBar (){
            <SwitchLanguageButton />
            <BurgerButton handleClickMenu={handleClickMenu} openMenu={openMenu} />
            <section className={`z-15 h-screen inset-0 overflow-auto top-0 fixed transition-all duration-1000 bg-black/60 backdrop-blur-sm lg:overflow-hidden ${openMenu ? "opacity-100" : "opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100 lg:bg-black/0 lg:backdrop-blur-none"}`}>
-               <ul className={`absolute h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 lg:h-18 lg:bg-[linear-gradient(to_bottom,rgba(0,0,0,1),rgba(0,0,0,0))] ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
+               <ul className={`fixed h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 lg:h-18 lg:bg-[linear-gradient(to_bottom,rgba(0,0,0,1),rgba(0,0,0,0))] ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
                    {menu.map((el, index) => (
                        <li
-                           className={`text-lightcolor p-2 vsm:p-4 lg:h-18  lg:px-0 ${index === menu.length - 1 ? "mr-20" : "mr-0"}`}
+                           className={`text-lightcolor p-2 vsm:p-4 lg:h-18 lg:px-0 ${index === menu.length - 1 ? "mr-20" : "mr-0"}`}
                            key={el.name}
                        >
                            <Link href={el.link ? el.link : "#"} className="text-xl hover:text-interest relative inline-block after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest vsm:text-2xl sm:text-3xl sm:ml-4 xl:mr-5 xl:text-2xl 2xl:text-3xl 2xl:mr-10">{el.name}</Link>
                        </li>
                    ))}
-                   <li className="absolute bottom-8 flex justify-center gap-8 w-full sm:mb-6 lg:mb-0">
+               </ul>
+               <ul>
+                   <li className="fixed bottom-8 flex justify-center gap-8 w-full sm:mb-6 lg:flex lg:justify-end lg:mr-20 lg:right-0.5">
                        <Link href={translations.link.gitHubLink}>
                            <svg
                                xmlns="http://www.w3.org/2000/svg"
