@@ -1,3 +1,5 @@
+import {StaticImageData} from "next/image";
+
 export type translationType = {
     banner: {
         title: string;
@@ -12,6 +14,9 @@ export type translationType = {
         contact: string;
         contactLink: string;
     };
+    "languageButton": {
+        "flagAlt": string;
+    },
     link: {
         linkedinAlt: string;
         linkedinLink: string;
@@ -35,4 +40,5 @@ export type languageType = {
     language: string;
     toggleLanguage: () => void;
     translations: translationType;
+    flag: StaticImageData;
 };
