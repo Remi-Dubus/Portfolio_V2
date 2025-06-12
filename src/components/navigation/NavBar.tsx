@@ -22,7 +22,7 @@ export default function NavBar (){
            <SwitchLanguageButton />
            <BurgerButton handleClickMenu={handleClickMenu} openMenu={openMenu} />
            <section className={`z-15 h-screen inset-0 overflow-auto top-0 fixed transition-all duration-1000 bg-black/60 backdrop-blur-sm lg:overflow-hidden ${openMenu ? "opacity-100" : "opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100 lg:bg-black/0 lg:backdrop-blur-none"}`}>
-               <ul className={`absolute h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
+               <ul className={`absolute h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 lg:h-18 lg:bg-[linear-gradient(to_bottom,rgba(0,0,0,1),rgba(0,0,0,0))] ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
                    {menu.map((el, index) => (
                        <li
                            className={`text-lightcolor p-2 vsm:p-4 lg:h-18  lg:px-0 ${index === menu.length - 1 ? "mr-20" : "mr-0"}`}
