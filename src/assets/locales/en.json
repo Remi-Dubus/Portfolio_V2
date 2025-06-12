@@ -12,10 +12,13 @@
     "contact": "Contact",
     "contactLink": "/#contact"
   },
+  "languageButton": {
+    "flagAlt": "french flag."
+  },
   "link": {
-    "linkedinAlt": "Logo of Linkedin",
+    "linkedinAlt": "Logo of Linkedin.",
     "linkedinLink": "https://www.linkedin.com/in/r-dubus/",
-    "gitHubAlt": "Logo of GitHub",
+    "gitHubAlt": "Logo of GitHub.",
     "gitHubLink": "https://github.com/Remi-Dubus"
   },
   "about": {

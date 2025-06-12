@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useTranslation } from "@/context/LangContext";
 
 import BurgerButton from "@/components/navigation/BurgerButton";
+import SwitchLanguageButton from "@/components/navigation/SwitchLanguageButton";
 import {convertMenuTranslation} from "@/utils/convertObjectToArray";
 
 export default function NavBar (){
@@ -18,15 +19,16 @@ export default function NavBar (){
 
     return (
        <header>
+           <SwitchLanguageButton />
            <BurgerButton handleClickMenu={handleClickMenu} openMenu={openMenu} />
            <section className={`z-15 h-screen inset-0 overflow-auto top-0 fixed transition-all duration-1000 bg-black/60 backdrop-blur-sm lg:overflow-hidden ${openMenu ? "opacity-100" : "opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100 lg:bg-black/0 lg:backdrop-blur-none"}`}>
                <ul className={`absolute h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
-                   {menu.map((el) => (
+                   {menu.map((el, index) => (
                        <li
-                           className="text-lightcolor ml-8 p-2 vsm:p-4"
+                           className={`text-lightcolor p-2 vsm:p-4 lg:h-18  lg:px-0 ${index === menu.length - 1 ? "mr-20" : "mr-0"}`}
                            key={el.name}
                        >
-                           <Link href={el.link ? el.link : "#"} className="text-xl hover:text-interest relative inline-block after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest vsm:text-2xl sm:text-3xl sm:ml-12 xl:mr-5 xl:text-2xl 2xl:text-3xl 2xl:mr-10">{el.name}</Link>
+                           <Link href={el.link ? el.link : "#"} className="text-xl hover:text-interest relative inline-block after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest vsm:text-2xl sm:text-3xl sm:ml-4 xl:mr-5 xl:text-2xl 2xl:text-3xl 2xl:mr-10">{el.name}</Link>
                        </li>
                    ))}
                    <li className="absolute bottom-8 flex justify-center gap-8 w-full sm:mb-6 lg:mb-0">
