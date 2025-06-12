@@ -8,7 +8,7 @@ export default function Skills() {
         <article className="h-screen text-light grid grid-cols-3 p-1 sm:p-4 lg:grid-cols-5 sm:text-xl xl:text-2xl xl:px-20">
             <h2 className={`text-2xl text-interest col-span-3 h-fit sm:text-4xl sm:text-center lg:text-start lg:col-span-5 xl:text-5xl ${mainTitleFont.className}`}>{translations.skills.skillsTitle}</h2>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16  sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Figma</title>
                     <path
                         fill="currentColor"
@@ -17,7 +17,7 @@ export default function Skills() {
                 <p>Figma</p>
             </section >
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Git</title>
                     <path
                         fill="currentColor"
@@ -26,7 +26,7 @@ export default function Skills() {
                 <p>Git</p>
             </section>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>HTML5</title>
                     <path
                         fill="currentColor"
@@ -35,7 +35,7 @@ export default function Skills() {
                 <p>HTML</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>CSS</title>
                     <path
                         fill="currentColor"
@@ -44,7 +44,7 @@ export default function Skills() {
                 <p>CSS</p>
             </section>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Tailwind CSS</title>
                     <path
                         fill="currentColor"
@@ -53,7 +53,7 @@ export default function Skills() {
                 <p>Tailwind CSS</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>TypeScript</title>
                     <path
                         fill="currentColor"
@@ -62,7 +62,7 @@ export default function Skills() {
                 <p>TypeScript</p>
             </section>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>React</title>
                     <path
                         fill="currentColor"
@@ -71,7 +71,7 @@ export default function Skills() {
                 <p>React</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Vite.js</title>
                     <path
                         fill="currentColor"
@@ -80,7 +80,7 @@ export default function Skills() {
                 <p>Vite.js</p>
             </section>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Next.js</title>
                     <path
                         fill="currentColor"
@@ -89,7 +89,7 @@ export default function Skills() {
                 <p>Next.js</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Node.js</title>
                     <path
                         fill="currentColor"
@@ -98,7 +98,7 @@ export default function Skills() {
                 <p>Node.js</p>
             </section>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2 lg:col-start-2">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-z 20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-z 20 2xl:h-24">
                     <title>Express</title>
                     <path
                         fill="currentColor"
@@ -107,7 +107,7 @@ export default function Skills() {
                 <p>Express.js</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center gap-1 sm:gap-2 lg:col-start-3">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>MySQL</title>
                     <path
                         fill="currentColor"
@@ -116,7 +116,7 @@ export default function Skills() {
                 <p>MySQL</p>
             </section>
             <section className="h-fit flex flex-col animate-invert-float items-center col-start-2 gap-1 sm:gap-2 lg:col-start-4">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-16 sm:h-20 2xl:h-24">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>PostgreSQL</title>
                     <path
                         fill="currentColor"
