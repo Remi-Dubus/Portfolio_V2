@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { paragraphFont } from "@/assets/fonts";
 import NavBar from "@/components/navigation/NavBar";
-import {LangProvider} from "@/context/LangContext";
+import { LangProvider } from "@/context/LangContext";
 
 export const metadata: Metadata = {
   title: "Portfolio | Rémi Dubus",
