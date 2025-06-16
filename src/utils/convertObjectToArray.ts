@@ -53,7 +53,7 @@ export function convertProjectsTranslation(translations: Record<string, string |
     const currentPropsObject = (key: string): string => {
         return key.match(/(Name|Text|Resume|Link|GitHub|Techno)$/)?.[0] || "";
     };
-    console.log(translations)
+
     const newTranslationProjects: projectType[] = [];
     let element: projectType = {};
     let previousKey = "";
@@ -62,7 +62,6 @@ export function convertProjectsTranslation(translations: Record<string, string |
         const currentProps = currentPropsObject(key);
 
         if (previousKey.slice(0, 4) === key.slice(0, 4)) {
-            console.log(currentProps)
             if(currentProps === "Resume" && typeof value === "string") {
                 element.resume = value;
             } else if(currentProps === "Text" && typeof value === "string") {
@@ -94,7 +93,7 @@ export function convertProjectsTranslation(translations: Record<string, string |
 
     for(const element of newTranslationProjects) {
         const elementLowerCase = element?.name?.split("").map( e => e.toLowerCase()).join("");
-    console.log(elementLowerCase)
+
         if(elementLowerCase === "crousti eat") {
             element.mobilePicture = croustiEatMobilePicture;
         } else if(elementLowerCase === "buy a planet") {
@@ -111,6 +110,6 @@ export function convertProjectsTranslation(translations: Record<string, string |
             element.mobilePicture = fournilExpressMobilePicture;
         };
     };
-    console.log(newTranslationProjects);
+
     return newTranslationProjects;
 };

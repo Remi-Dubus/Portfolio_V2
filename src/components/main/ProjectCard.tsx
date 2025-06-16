@@ -22,6 +22,7 @@ export default function ProjectCard(
                             src={mobilePicture}
                             alt={name}
                             fill
+                            sizes="(max-width: 640px) 80vw, (max-width: 1024px) 38vw, 15vw"
                             className="rounded-lg"
                         />
                     )}

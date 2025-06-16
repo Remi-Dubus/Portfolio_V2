@@ -24,7 +24,7 @@ export default function Projects() {
         centerPadding: "0px",
         beforeChange: (before: number, i: number) => setActiveSlide(i),
         slidesToShow: 5,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1024,
@@ -34,7 +34,6 @@ export default function Projects() {
                     speed: 2000,
                     autoplaySpeed: 3800,
                     slidesToShow: 2,
-                    slidesToScroll: 2,
                 },
             },
             {
@@ -45,7 +44,6 @@ export default function Projects() {
                     speed: 2000,
                     autoplaySpeed: 3800,
                     slidesToShow: 1,
-                    slidesToScroll: 1,
                 },
             },
         ],
