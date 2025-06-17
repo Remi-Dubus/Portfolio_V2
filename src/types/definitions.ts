@@ -72,7 +72,7 @@ export type translationType = {
         portFolioTechno: string[];
 
         geocodeName: string;
-        geoloCode: string;
+        geocodeResume: string;
         geocodeText: string;
         geocodeLink: string;
         geocodeGitHub: string;
