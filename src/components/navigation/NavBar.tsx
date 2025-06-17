@@ -7,7 +7,7 @@ import { useTranslation } from "@/context/LangContext";
 
 import BurgerButton from "@/components/navigation/BurgerButton";
 import SwitchLanguageButton from "@/components/navigation/SwitchLanguageButton";
-import {convertMenuTranslation} from "@/utils/convertObjectToArray";
+import { convertMenuTranslation } from "@/utils/convertObjectToArray";
 
 export default function NavBar (){
     const [openMenu, setOpenMenu] = useState(false);
@@ -21,7 +21,7 @@ export default function NavBar (){
        <header>
            <SwitchLanguageButton />
            <BurgerButton handleClickMenu={handleClickMenu} openMenu={openMenu} />
-           <section className={`z-15 h-screen inset-0 overflow-auto top-0 fixed transition-all duration-1000 bg-black/60 backdrop-blur-sm lg:overflow-hidden ${openMenu ? "opacity-100" : "opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100 lg:bg-black/0 lg:backdrop-blur-none"}`}>
+           <section className={`z-15 h-screen inset-0 overflow-auto top-0 fixed transition-all duration-1000 bg-black/60 backdrop-blur-sm lg:overflow-hidden lg:h-20 ${openMenu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none lg:opacity-100 lg:bg-black/0 lg:pointer-events-auto lg:backdrop-blur-none"}`}>
                <ul className={`fixed h-screen w-screen flex justify-center gap-4 pb-45 flex-col text-light font-paragraph transform duration-1000 ease-in-out sm:gap-12 lg:flex-row lg:justify-end lg:gap-0 lg:h-18 lg:bg-[linear-gradient(to_bottom,rgba(0,0,0,1),rgba(0,0,0,0))] ${openMenu ? "-translate-x-0" : "lg:opacity-100 lg:-translate-x-0 translate-x-full opacity-0"}`}>
                    {menu.map((el, index) => (
                        <li

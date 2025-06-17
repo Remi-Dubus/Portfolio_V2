@@ -1,4 +1,4 @@
-import { mainTitleFont } from "@/assets/fonts";
+import { titleFont } from "@/assets/fonts";
 import { useTranslation } from "@/context/LangContext";
 
 export default function Skills() {
@@ -6,7 +6,7 @@ export default function Skills() {
 
     return (
         <article className="h-screen text-light grid grid-cols-3 p-1 sm:p-4 lg:grid-cols-5 sm:text-xl xl:text-2xl xl:px-20">
-            <h2 className={`text-2xl text-interest col-span-3 h-fit sm:text-4xl sm:text-center lg:text-start lg:col-span-5 xl:text-5xl ${mainTitleFont.className}`}>{translations.skills.skillsTitle}</h2>
+            <h2 className={`text-2xl text-interest col-span-3 h-fit sm:text-4xl sm:text-center lg:text-start lg:col-span-5 xl:text-5xl ${titleFont.className}`}>{translations.skills.skillsTitle}</h2>
             <section className="h-fit flex flex-col animate-float items-center gap-1 sm:gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="h-10 vsm:h-16 sm:h-20 2xl:h-24">
                     <title>Figma</title>

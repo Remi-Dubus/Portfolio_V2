@@ -9,8 +9,8 @@ import fr from "../assets/locales/fr.json";
 import en from "../assets/locales/en.json";
 
 // Import flag
-import frFlag from "../../public/fr-flag.png";
-import ukFlag from "../../public/uk-flag.png";
+import frFlag from "../assets/images/fr-flag.png";
+import ukFlag from "../assets/images/uk-flag.png";
 
 const translations = { en, fr };
 const flag = { en: frFlag, fr: ukFlag };

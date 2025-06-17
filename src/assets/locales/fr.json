@@ -31,5 +31,61 @@
   },
   "skills": {
     "skillsTitle": "Compétences"
+  },
+  "projects": {
+    "croustiEatName": "Crousti Eat",
+    "croustiEatResume": "Premier projet réalisé après un mois de formation.",
+    "croustiEatText": "Crousti Eat est le tout premier projet que j’ai réalisé après seulement un mois de formation. L’objectif était de créer une interface responsive permettant aux utilisateurs de rechercher des restaurants dans la région bordelaise selon différents critères (type de cuisine, localisation, etc.). Entièrement développé en HTML, CSS et JavaScript Vanilla, ce projet m’a permis de me familiariser avec la logique de programmation, la manipulation du DOM, la gestion des événements et les bases de l’intégration responsive, le tout sans framework ni librairie externe.",
+    "croustiEatLink": "https://crousti-eat-project.vercel.app/",
+    "croustiEatGitHub": "https://github.com/Remi-Dubus/Crousti_Eat",
+    "croustiEatTechno": ["html", "css", "javascript"],
+
+    "buyAPlanetName": "Buy A Planet",
+    "buyAPlanetResume": "Mon premier projet React.",
+    "buyAPlanetText": "Buy A Planet est un site de vente fictive de planètes du système solaire, développé dans le cadre de ma formation. Il s’agit de mon premier projet avec React, conçu pour m’initier à la logique des composants dynamiques. Le site permet de visualiser chaque planète avec ses caractéristiques, dans une interface responsive.",
+    "buyAPlanetLink": "https://buy-a-planet-project.vercel.app/",
+    "buyAPlanetGitHub": "https://github.com/Remi-Dubus/Buy_a_Planet",
+    "buyAPlanetTechno": ["typescript", "tailwind", "react"],
+
+    "eShopName": "EShop",
+    "eShopResume": "Projet développé en cours de formation afin d'approfondir React et la gestion d'état.",
+    "eShopText": "eShop est un projet e-commerce développé en React pendant ma formation. L’objectif principal était d’apprendre à récupérer des données via fetch(), à gérer l’état avec React, et à structurer une interface moderne. Ce projet m'a permis de renforcer mes compétences avec React et l'intégration d'API.",
+    "eShopLink": "https://eshop-remi-dubus.vercel.app/",
+    "eShopGitHub": "https://github.com/Remi-Dubus/Eshop",
+    "eShopTechno": ["typescript", "tailwind", "react"],
+
+    "boarderLineName": "Boarder Line",
+    "boarderLineResume": "Projet de groupe, réalisé avec le framework pédagogique du centre de formation.",
+    "boarderLineText": "Boarder Line est un projet de groupe réalisé durant ma formation. Nous avons conçu un site permettant de référencer des jeux de société en consommant une API REST externe. Ce projet m’a permis d’approfondir mes connaissances en React, notamment la récupération des données avec fetch(), la gestion des états avec useState et useEffect, ainsi que l’organisation d’un projet collaboratif avec Git. L’interface propose un affichage responsive, la navigation dans différentes catégories de jeux, des favoris, ainsi que des fiches détaillées pour chaque jeu.",
+    "boarderLineLink": "https://boarder-line-project.vercel.app/",
+    "boarderLineGitHub": "https://github.com/Remi-Dubus/Boarder_Line",
+    "boarderLineTechno": ["typescript", "css module", "react"],
+
+    "portFolioName": "Mon premier Portfolio",
+    "portFolioResume": "Mon premier portfolio, développé avec React durant ma formation.",
+    "portFolioText": "Ce portfolio est la première version de mon site personne. J’y présentais mes projets et compétences avec un design simple et efficace. J’ai ensuite réalisé une refonte complète en Next.js, améliorant le style, la performance et ajoutant de nouvelles fonctionnalités pour une meilleure expérience utilisateur.",
+    "portFolioLink": "https://portfolio-remi-dubus.vercel.app/",
+    "portFolioGitHub": "https://github.com/Remi-Dubus/Portfolio",
+    "portFolioTechno": ["typescript", "tailwind", "react"],
+
+    "geocodeName": "Geocode",
+    "geocodeResume": "Projet de groupe, présenté lors du passage de titre.",
+    "geocodeText": "GeoCode est une plateforme conçue pour faciliter la gestion et la localisation des bornes de recharge destinées aux utilisateurs de véhicules électriques. Réalisé en équipe dans le cadre de ma formation, ce projet m’a permis de me familiariser avec le développement backend en utilisant Express.js associé à une base de données MySQL. J’ai ainsi appris à créer des API REST sécurisées, gérer les opérations CRUD, et assurer la communication entre serveur et base de données dans un environnement réel.",
+    "geocodeLink": "#",
+    "geocodeGitHub": "https://github.com/Remi-Dubus/Geocode",
+    "geocodeTechno": ["typescript", "tailwind", "react", "node", "express", "JWT", "mysql"],
+
+    "fournilExpressName": "Fournil Express",
+    "fournilExpressResume": "Un projet personnel, le premier réalisé avec Next.js",
+    "fournilExpressText": "Fournil Express est un site web personnel, mon premier projet réalisé avec Next.js. Il facilite la mise en relation entre les professionnels de la restauration et de la boulangerie pour simplifier la gestion des commandes de produits. Ce projet m’a permis de découvrir les fondamentaux de Next.js, ainsi que de manipuler une base de données PostgreSQL.",
+    "fournilExpressLink": "https://fournil-express.vercel.app/",
+    "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
+    "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
+  },
+  "footer": {
+    "freepikText": "Images conçu par ",
+    "freepikLink": "rawpixel.com / Freepik",
+    "simpleIconsText": "Icones conçu par ",
+    "simpleIconsLink": "Simple Icons"
   }
 }
