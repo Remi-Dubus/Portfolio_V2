@@ -85,6 +85,12 @@ export type translationType = {
         fournilExpressGitHub: string;
         fournilExpressTechno: string[];
     };
+    footer: {
+        freepikText: string;
+        freepikLink: string;
+        simpleIconsText: string;
+        simpleIconsLink: string;
+    }
 };
 
 export type languageType = {

@@ -81,5 +81,11 @@
     "fournilExpressLink": "https://fournil-express.vercel.app/",
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
     "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
+  },
+  "footer": {
+    "freepikText": "Images conçu par ",
+    "freepikLink": "rawpixel.com / Freepik",
+    "simpleIconsText": "Icones conçu par ",
+    "simpleIconsLink": "Simple Icons"
   }
 }
