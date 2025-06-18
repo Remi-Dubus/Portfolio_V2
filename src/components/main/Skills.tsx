@@ -1,4 +1,5 @@
 import { titleFont } from "@/assets/fonts";
+
 import { useTranslation } from "@/context/LangContext";
 
 export default function Skills() {

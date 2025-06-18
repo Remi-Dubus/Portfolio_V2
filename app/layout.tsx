@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { Bounce, ToastContainer } from "react-toastify";
 import "./globals.css";
 
 import { paragraphFont } from "@/assets/fonts";
+
 import NavBar from "@/components/navigation/NavBar";
 import { LangProvider } from "@/context/LangContext";
 
@@ -26,6 +28,19 @@ export default function RootLayout({
             >
                 <NavBar />
                 {children}
+                <ToastContainer
+                    position="top-right"
+                    autoClose={2000}
+                    hideProgressBar={true}
+                    newestOnTop={false}
+                    closeOnClick={false}
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="dark"
+                    transition={Bounce}
+                />
             </body>
         </LangProvider>
     </html>

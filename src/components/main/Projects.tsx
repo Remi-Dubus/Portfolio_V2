@@ -1,11 +1,13 @@
 import { useState } from "react";
 import Slider from "react-slick";
+
 import { titleFont } from "@/assets/fonts";
 
 import { useTranslation } from "@/context/LangContext";
 import { convertProjectsTranslation } from "@/utils/convertObjectToArray";
-import ProjectCard from "@/components/main/ProjectCard";
 import { CustomNextArrow, CustomPrevArrow } from "@/components/ui/Arrows";
+import ProjectCard from "@/components/main/ProjectCard";
+
 
 export default function Projects() {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -55,8 +57,8 @@ export default function Projects() {
 
 
     return (
-        <article className="h-screen ">
-            <h2 className={`text-2xl text-interest sm:text-4xl sm:text-center lg:text-start lg:mb-8 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.navbar.projects}</h2>
+        <article className="h-screen">
+            <h2 className={`text-2xl text-interest sm:text-4xl sm:p-4 sm:text-center lg:text-start lg:mb-8 xl:px-20 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.navbar.projects}</h2>
             <Slider {...settings} className="w-11/12 mt-10 h-[70vh] mx-auto flex flex-col sm:mt-20">
                 {projects.map((el, index) => (
                     <ProjectCard
