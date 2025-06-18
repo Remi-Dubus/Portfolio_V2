@@ -1,10 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { titleFont } from "@/assets/fonts";
-
 import { projectType } from "@/types/definitions";
-
+import { titleFont } from "@/assets/fonts";
 
 export default function ProjectCard(
     {

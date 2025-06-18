@@ -1,9 +1,8 @@
 import Image from "next/image";
-
-import { titleFont } from "@/assets/fonts";
+import {titleFont} from "@/assets/fonts";
 
 import { useTranslation } from "@/context/LangContext";
-import { convertAboutTranslation } from "@/utils/convertObjectToArray";
+import {convertAboutTranslation} from "@/utils/convertObjectToArray";
 
 export default function About() {
     const { translations } = useTranslation();

@@ -7,7 +7,6 @@ import Banner from "@/components/layout/Banner";
 import About from "@/components/main/About";
 import Skills from "@/components/main/Skills";
 import Projects from "@/components/main/Projects";
-import Contact from "@/components/main/Contact";
 import Footer from "@/components/layout/Footer";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
         <Footer />
     </main>
   );

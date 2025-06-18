@@ -82,24 +82,6 @@
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
     "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
   },
-  "contact": {
-    "contactTitle": "Envoyez-moi un message!",
-    "contactName": "Votre nom",
-    "contactMail": "Votre adresse email",
-    "contactMessage": "Votre message",
-    "contactButton": "Envoyer",
-    "contactSuccess": "Message envoyé avec succés.",
-    "contactError": "Echec de l'envoie du message."
-  },
-  "errorMessage": {
-    "required": "Champ requis.",
-    "text": "Caractères non valides",
-    "email": "Email non valide.",
-    "minCharName": "Le minimum de caractères est de 3.",
-    "minCharEmail": "Le minimum de caractères est de 7.",
-    "minCharText": "Le minimum de caractères est de 30.",
-    "maxChar": "Trop de caractères."
-  },
   "footer": {
     "freepikText": "Images conçu par ",
     "freepikLink": "rawpixel.com / Freepik",
