@@ -25,6 +25,7 @@
   --color-interest: #2DD1D1;
   --color-active-interest: #91FFFF;
   --color-shadow: #0D0C0B;
+  --color-error: #EEA329;
   --animate-spin-slow: spin 150s linear infinite;
   --animate-float: float 8s ease-in-out infinite;
   --animate-invert-float: invert-float 8s ease-in-out infinite;
@@ -35,4 +36,3 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5em;
 }
-

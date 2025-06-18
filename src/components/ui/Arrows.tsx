@@ -1,7 +1,7 @@
 import { ChevronRight, ChevronLeft } from "lucide-react"
-import { ArrowType } from "@/types/definitions";
+import { arrowType } from "@/types/definitions";
 
-export function CustomNextArrow(props: ArrowType) {
+export function CustomNextArrow(props: arrowType) {
     const { onClick } = props
     return (
         <div
@@ -13,7 +13,7 @@ export function CustomNextArrow(props: ArrowType) {
     )
 }
 
-export function CustomPrevArrow(props: ArrowType) {
+export function CustomPrevArrow(props: arrowType) {
     const { onClick } = props
     return (
         <div

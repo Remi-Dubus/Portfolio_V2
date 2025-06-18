@@ -82,6 +82,24 @@
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
     "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
   },
+  "contact": {
+    "contactTitle": "Send me a message!",
+    "contactName": "Your name",
+    "contactMail": "Your email adress",
+    "contactMessage": "Your message",
+    "contactButton": "Send",
+    "contactSuccess": "Message sent successfully.",
+    "contactError": "Fail to send message."
+  },
+  "errorMessage": {
+    "required": "This field is required.",
+    "text": "Invalid characters.",
+    "email": "Invalid email.",
+    "minCharName": "Minimum of 3 characters required.",
+    "minCharEmail": "Minimum of 7 characters required.",
+    "minCharText": "Minimum of 30 characters required.",
+    "maxChar": "Too many characters."
+  },
   "footer": {
     "freepikText": "Pictures designed by ",
     "freepikLink": "rawpixel.com / Freepik",

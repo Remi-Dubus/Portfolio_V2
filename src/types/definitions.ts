@@ -5,7 +5,7 @@ export type translationType = {
     banner: {
         title: string;
         job: string;
-        bannerAlt: string
+        bannerAlt: string;
     };
     navbar: {
         about: string;
@@ -85,6 +85,24 @@ export type translationType = {
         fournilExpressGitHub: string;
         fournilExpressTechno: string[];
     };
+    contact: {
+        contactTitle: string;
+        contactName: string;
+        contactMail: string;
+        contactMessage: string;
+        contactButton: string;
+        contactSuccess: string;
+        contactError: string;
+    };
+    errorMessage: {
+        required: string;
+        text: string;
+        email: string;
+        minCharName: string;
+        minCharEmail: string;
+        minCharText: string;
+        maxChar: string;
+    };
     footer: {
         freepikText: string;
         freepikLink: string;
@@ -112,8 +130,14 @@ export type projectType = {
     mobilePicture?: StaticImageData;
 };
 
-export type ArrowType = {
+export type arrowType = {
     className?: string;
     style?: CSSProperties;
     onClick?: () => void;
-}
+};
+
+export type contactFormType = {
+    name: string;
+    email: string;
+    text: string;
+};
