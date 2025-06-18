@@ -97,7 +97,7 @@
     "email": "Email non valide.",
     "minCharName": "Le minimum de caractères est de 3.",
     "minCharEmail": "Le minimum de caractères est de 7.",
-    "minCharText": "Le minimum de caractères est de 50.",
+    "minCharText": "Le minimum de caractères est de 30.",
     "maxChar": "Trop de caractères."
   },
   "footer": {
