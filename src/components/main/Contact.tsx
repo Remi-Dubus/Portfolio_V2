@@ -127,7 +127,7 @@ export default function Contact() {
                         })}
                         id="text"
                         placeholder=" "
-                        className="w-full  peer h-[49vw] resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-noneborder-light focus:border-interest sm:h-90 sm:text-lg"
+                        className="w-full  peer h-[50vw] resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-noneborder-light focus:border-interest sm:h-90 sm:text-lg"
                     />
                     <label
                         htmlFor="text"
