@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="h-30 flex flex-col items-center text-light justify-center w-full gap-2 sm:text-lg sm:h-50 lg:text-xl">
             <p>
-                Portfolio | Rémi Dubus &copy;
+                Portfolio | Rémi Dubus &copy;2025
             </p>
             <p>
                 {translations.footer.freepikText}
