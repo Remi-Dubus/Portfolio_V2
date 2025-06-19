@@ -4,8 +4,10 @@ import "./globals.css";
 
 import { paragraphFont } from "@/assets/fonts";
 
+import Banner from "@/components/layout/Banner";
 import NavBar from "@/components/navigation/NavBar";
 import { LangProvider } from "@/context/LangContext";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Portfolio | Rémi Dubus",
@@ -24,10 +26,12 @@ export default function RootLayout({
         </head>
         <LangProvider>
             <body
-                className={`${paragraphFont.className} antialiased`}
+                className={`${paragraphFont.className} antialiased bg-gradient-to-b from-shadow via-dark to-active-dark`}
             >
+                <Banner />
                 <NavBar />
                 {children}
+                <Footer />
                 <ToastContainer
                     position="top-right"
                     autoClose={2000}
