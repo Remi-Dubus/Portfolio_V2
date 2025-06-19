@@ -13,9 +13,7 @@ export default function Projects() {
     const [activeSlide, setActiveSlide] = useState(0);
 
     const settings = {
-        arrows: true,
-        nextArrow: <CustomNextArrow />,
-        prevArrow: <CustomPrevArrow />,
+        arrows: false,
         draggable: false,
         infinite: true,
         speed: 2500,
@@ -31,7 +29,9 @@ export default function Projects() {
             {
                 breakpoint: 1024,
                 settings: {
-                    arrows: false,
+                    arrows: true,
+                    nextArrow: <CustomNextArrow />,
+                    prevArrow: <CustomPrevArrow />,
                     draggable: true,
                     speed: 2000,
                     autoplaySpeed: 3800,
