@@ -4,6 +4,7 @@ import Image from "next/image";
 import { titleFont } from "@/assets/fonts";
 
 import { projectType } from "@/types/definitions";
+import {slugify} from "@/utils/slug";
 
 
 export default function ProjectCard(
@@ -15,9 +16,11 @@ export default function ProjectCard(
         activeSlide,
     } : projectType
 ) {
+    const slug = name && slugify(name);
+
     return (
         <section className="vsm:h-[80vh] p-6">
-            <Link href="#" className="h-[70vh]">
+            <Link href={`projects/${slug}`} className="h-[70vh]">
                 <figure className={`relative flex h-[65vh] vsm:h-[60vh] w-[80vw] mx-auto flex-col justify-center rounded-lg items-center group transition-all duration-1000 hover:opacity-100 hover:drop-shadow-[0_0_10px_#C6C6CF] vsm:mt-8 hover:sm:drop-shadow-[0_0_15px_#C6C6CF] sm:h-[55vh] sm:w-[38vw] lg:w-[15vw] lg:h-[50vh] hover:lg:scale-110 ${index === activeSlide ? "z-30 lg:scale-110" : "z-20 lg:scale-90 lg:opacity-60"}`}>
                     {mobilePicture && name && (
                         <Image
