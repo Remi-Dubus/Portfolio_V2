@@ -7,8 +7,10 @@
   "navbar": {
     "about": "About",
     "aboutLink": "/#about",
+    "skills": "Skills",
+    "skillsLink": "/#skills",
     "projects": "My projects",
-    "projectsLink": "/#projects",
+    "projectsLink": "/#project",
     "contact": "Contact",
     "contactLink": "/#contact"
   },
@@ -70,17 +72,22 @@
 
     "geocodeName": "Geocode",
     "geocodeResume": "Group project presented during the final certification exam.",
-    "geocodeText": "GeoCode is a collaborative platform designed to simplify the management and location of charging stations for electric vehicle users. Developed as a team project during my training, it helped me gain hands-on experience with backend development using Express.js combined with a MySQL database. I learned how to build secure RESTful APIs, handle CRUD operations, and manage server-database communication in a real-world environment.",
+    "geocodeText": "GeoCode is a collaborative platform designed to simplify the management and location of charging stations for electric vehicle users. Developed as a team project during my training, it helped me gain hands-on experience with backend development using Express.js and JWT combined with a MySQL database. I learned how to build secure RESTful APIs, handle CRUD operations, and manage server-database communication in a real-world environment.",
     "geocodeLink": "#",
     "geocodeGitHub": "https://github.com/Remi-Dubus/Geocode",
     "geocodeTechno": ["typescript", "tailwind", "react", "node", "express", "JWT", "mysql"],
 
     "fournilExpressName": "Fournil Express",
     "fournilExpressResume": "A personal project, the first one built with Next.js.",
-    "fournilExpressText": "Fournil Express is a personal website and my first project built with Next.js. It facilitates the connection between restaurant and bakery professionals to simplify product order management. This project allowed me to discover the fundamentals of Next.js as well as work with a PostgreSQL database.",
+    "fournilExpressText": "Fournil Express is a personal website and my first project built with Next.js. It facilitates the connection between restaurant and bakery professionals to simplify product order management. This project allowed me to discover the fundamentals of Next.js and NextAuth as well as work with a PostgreSQL database.",
     "fournilExpressLink": "https://fournil-express.vercel.app/",
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
     "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
+  },
+  "projectPage": {
+    "gitHubLink": "Link to the GitHub repository.",
+    "deployedWebSite": "Link to the deployed website.",
+    "notDeployedWebSite": "Website not deployed."
   },
   "contact": {
     "contactTitle": "Send me a message!",

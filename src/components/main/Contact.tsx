@@ -42,7 +42,7 @@ export default function Contact() {
     };
 
     return  (
-        <article className="h-full lg:h-fit flex flex-col sm:p-4 xl:px-20">
+        <article id="contact" className="min-h-[70%] flex flex-col mb-18 sm:p-4 lg:h-fit xl:px-20">
             <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:mb-8 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
             <form
                 className="w-11/12 h-fit mx-auto flex flex-col item-center pt-8 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-10 lg:grid lg:grid-cols-4 xl:pt-0"
@@ -68,7 +68,7 @@ export default function Contact() {
                         type="text"
                         id="name"
                         placeholder=" "
-                        className="w-full peer border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light  focus:border-interest sm:h-9 sm:text-lg"
+                        className="w-full peer border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-9 sm:text-lg"
                     />
                      <label
                         htmlFor="name"
@@ -127,7 +127,7 @@ export default function Contact() {
                         })}
                         id="text"
                         placeholder=" "
-                        className="w-full peer h-[50vw] resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-noneborder-light focus:border-interest sm:h-90 sm:text-lg"
+                        className="w-full peer h-[50vw] resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-90 sm:text-lg"
                     />
                     <label
                         htmlFor="text"

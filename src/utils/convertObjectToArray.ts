@@ -6,6 +6,14 @@ import portfolioMobilePicture from "../assets/images/portfolio-mobile.png";
 import geocodeMobilePicture from "../assets/images/geocode-mobile.png";
 import fournilExpressMobilePicture from "../assets/images/fournil-express-mobile.png";
 
+import croustiEatDesktopPicture from "../assets/images/crousti-eat-desktop.png";
+import buyAPlanetDesktopPicture from "../assets/images/buy-a-planet-desktop.png";
+import eShopDesktopPicture from "../assets/images/eshop-desktop.png";
+import boarderlineDesktopPicture from "../assets/images/boarderline-desktop.png";
+import portfolioDesktopPicture from "../assets/images/portfolio-desktop.png";
+import geocodeDesktopPicture from "../assets/images/geocode-desktop.png";
+import fournilExpressDesktopPicture from "../assets/images/fournil-express-desktop.png";
+
 import type { projectType } from "@/types/definitions";
 
 export function convertMenuTranslation(
@@ -96,18 +104,25 @@ export function convertProjectsTranslation(translations: Record<string, string |
 
         if(elementLowerCase === "crousti eat") {
             element.mobilePicture = croustiEatMobilePicture;
+            element.desktopPicture = croustiEatDesktopPicture;
         } else if(elementLowerCase === "buy a planet") {
             element.mobilePicture = buyAPlanetMobilePicture;
+            element.desktopPicture = buyAPlanetDesktopPicture;
         } else if(elementLowerCase === "eshop") {
             element.mobilePicture = eShopMobilePicture;
+            element.desktopPicture = eShopDesktopPicture;
         } else if(elementLowerCase === "boarder line") {
             element.mobilePicture = boarderlineMobilePicture;
+            element.desktopPicture = boarderlineDesktopPicture;
         } else if(elementLowerCase?.split(" ")[2] === "portfolio") {
             element.mobilePicture = portfolioMobilePicture;
+            element.desktopPicture = portfolioDesktopPicture;
         } else if(elementLowerCase === "geocode") {
             element.mobilePicture = geocodeMobilePicture;
+            element.desktopPicture = geocodeDesktopPicture;
         } else if(elementLowerCase === "fournil express") {
             element.mobilePicture = fournilExpressMobilePicture;
+            element.desktopPicture = fournilExpressDesktopPicture;
         };
     };
 
