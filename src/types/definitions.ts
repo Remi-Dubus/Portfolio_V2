@@ -10,6 +10,8 @@ export type translationType = {
     navbar: {
         about: string;
         aboutLink: string;
+        skills: string;
+        skillsLink: string;
         projects: string;
         projectsLink: string;
         contact: string;

@@ -57,7 +57,7 @@ export default function Projects() {
 
 
     return (
-        <article className="min-h-screen vsm:min-h-auto">
+        <article id="project" className="min-h-screen vsm:min-h-auto">
             <h2 className={`text-2xl text-interest text-center sm:text-4xl sm:p-4 lg:mb-8 xl:px-20 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.navbar.projects}</h2>
             <Slider {...settings} className="w-11/12 mx-auto flex flex-col vsm:my-18">
                 {projects.map((el, index) => (

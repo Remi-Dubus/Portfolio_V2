@@ -6,7 +6,7 @@ export default function Skills() {
     const { translations } = useTranslation();
 
     return (
-        <article className="min-h-screen text-light grid grid-cols-3 p-1 sm:text-xl sm:p-4 lg:grid-cols-5 xl:text-2xl xl:px-20">
+        <article id="skills" className="min-h-screen text-light grid grid-cols-3 p-1 sm:text-xl sm:p-4 lg:grid-cols-5 xl:text-2xl xl:px-20">
             <h2 className={`text-2xl text-interest col-span-3 h-fit mb-10 text-center sm:text-4xl lg:col-span-5 xl:text-5xl ${titleFont.className}`}>{translations.skills.skillsTitle}</h2>
             <section className="min-h-20 h-20 flex flex-col animate-float items-center gap-1 vsm:mb-4 sm:gap-2 sm:min-h-28 sm:h-28">
                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="min-h-10 max-h-10 vsm:max-h-14 vsm:h-14 sm:max-h-28 sm:h-28">

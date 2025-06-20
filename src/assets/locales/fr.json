@@ -7,8 +7,10 @@
   "navbar": {
     "about": "A propos",
     "aboutLink": "/#about",
+    "skills": "Compétences",
+    "skillsLink": "/#skills",
     "projects": "Mes projets",
-    "projectsLink": "/#projects",
+    "projectsLink": "/#project",
     "contact": "Contact",
     "contactLink": "/#contact"
   },
