@@ -1,4 +1,4 @@
-import {projectType} from "@/types/definitions";
+import { projectType } from "@/types/definitions";
 
 export function slugify(text: string): string {
     return text

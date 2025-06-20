@@ -23,7 +23,7 @@ export default function Projects() {
         centerMode: true,
         centerPadding: "0px",
         beforeChange: (before: number, i: number) => setActiveSlide(i),
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {
@@ -57,9 +57,9 @@ export default function Projects() {
 
 
     return (
-        <article className="h-screen">
-            <h2 className={`text-2xl text-interest sm:text-4xl sm:p-4 sm:text-center lg:text-start lg:mb-8 xl:px-20 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.navbar.projects}</h2>
-            <Slider {...settings} className="w-11/12 mt-10 h-[70vh] mx-auto flex flex-col sm:mt-20">
+        <article className="min-h-screen vsm:min-h-auto">
+            <h2 className={`text-2xl text-interest text-center sm:text-4xl sm:p-4 lg:mb-8 xl:px-20 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.navbar.projects}</h2>
+            <Slider {...settings} className="w-11/12 mx-auto flex flex-col vsm:my-18">
                 {projects.map((el, index) => (
                     <ProjectCard
                         key={el.index}
