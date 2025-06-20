@@ -26,6 +26,12 @@
   --color-active-interest: #91FFFF;
   --color-shadow: #0D0C0B;
   --color-error: #EEA329;
+  --color-html: #D76A1E;
+  --color-css: #1E53D7;
+  --color-javascript: #EEE529;
+  --color-typescript: #1460A9;
+  --color-node: #129321;
+  --color-sql: #116880;
   --animate-spin-slow: spin 150s linear infinite;
   --animate-float: float 8s ease-in-out infinite;
   --animate-invert-float: invert-float 8s ease-in-out infinite;
