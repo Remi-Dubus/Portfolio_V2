@@ -1,14 +1,15 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
+
+import { titleFont } from "@/assets/fonts";
 
 import { useTranslation } from "@/context/LangContext";
 import { convertProjectsTranslation } from "@/utils/convertObjectToArray";
 import { compareSlugToProjectsName } from "@/utils/slug";
-import Image from "next/image";
 import TechnoIcones from "@/components/ui/TechnoIcones";
-import {titleFont} from "@/assets/fonts";
 
 export default function  ProjectPages() {
     const params = usePathname();
@@ -25,10 +26,10 @@ export default function  ProjectPages() {
                     {currentProject?.name}
                 </figcaption>
                 <figure className="relative w-55 h-30 vsm:h-45 vsm:w-64 sm:h-70 sm:w-96 lg:w-[100%] xl:h-[30vw] lg:col-start-1 2xl:w-[40vw] 2xl:h-[50vh]">
-                    {currentProject?.desktopPicture && currentProject?.name && (
+                    {currentProject?.desktopPicture && currentProject?.name && currentProject?.alt && (
                         <Image
                             src={currentProject?.desktopPicture}
-                            alt={currentProject?.name}
+                            alt={currentProject?.alt}
                             fill
                             sizes="(max-width: 640px) 100vw, 80vw"
                             className="rounded-lg"

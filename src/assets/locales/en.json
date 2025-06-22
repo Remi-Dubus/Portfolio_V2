@@ -36,6 +36,7 @@
   },
   "projects": {
     "croustiEatName": "Crousti Eat",
+    "croustiEatAlt" : "Screenshot of Crousti Eat website.",
     "croustiEatResume": "First project completed after one month of training.",
     "croustiEatText": "Crousti Eat is the very first project I developed after only one month of training. The goal was to build a responsive web interface allowing users to search for restaurants in the Bordeaux area using various filters (type of cuisine, location, etc.). Fully built with HTML, CSS, and Vanilla JavaScript, this project helped me practice core concepts such as DOM manipulation, event handling, and responsive layout, all without using any external frameworks or libraries.",
     "croustiEatLink": "https://crousti-eat-project.vercel.app/",
@@ -43,6 +44,7 @@
     "croustiEatTechno": ["html", "css", "javascript"],
 
     "buyAPlanetName": "Buy A Planet",
+    "buyAPlanetAlt" : "Screenshot of Buy A Planet website.",
     "buyAPlanetResume": "My first React project.",
     "buyAPlanetText": "Buy A Planet is a fictional website for selling planets from the solar system, developed as part of my training. It was my first project using React, designed to introduce me to the logic of dynamic components. The site allows users to view each planet along with its characteristics, within a responsive interface.",
     "buyAPlanetLink": "https://buy-a-planet-project.vercel.app/",
@@ -50,6 +52,7 @@
     "buyAPlanetTechno": ["typescript", "tailwind", "react"],
 
     "eShopName": "EShop",
+    "eShopAlt" : "Screenshot of Eshop website.",
     "eShopResume": "Project developed during training to deepen knowledge of React and state management.",
     "eShopText": "eShop is an e-commerce project built with React during my training. The main focus was on data fetching using fetch(), state management, and designing a clean UI. This project allowed me to strengthen my skills with React and API integration.",
     "eShopLink": "https://eshop-remi-dubus.vercel.app/",
@@ -57,6 +60,7 @@
     "eShopTechno": ["typescript", "tailwind", "react"],
 
     "boarderLineName": "Boarder Line",
+    "boarderLineAlt" : "Screenshot of Boarder Line website.",
     "boarderLineResume": "Group project developed using the training center's educational framework.",
     "boarderLineText": "Boarder Line is a group project completed during my training. We designed a website that allows users to browse board games by consuming an external REST API. This project helped me deepen my knowledge of React, particularly data fetching with fetch(), state management using useState and useEffect, as well as collaborative project organization with Git. The interface features a responsive design, navigation through different game categories, a favorites system, and detailed pages for each game.",
     "boarderLineLink": "https://boarder-line-project.vercel.app/",
@@ -64,13 +68,14 @@
     "boarderLineTechno": ["typescript", "css module", "react"],
 
     "portFolioName": "My first PortFolio",
-    "portFolioResume": "My first portfolio, developed with React during my training.",
+    "portFolioAlt" : "Screenshot of my first portfolio.",
     "portFolioText": "This portfolio is the first version of my personal website. It showcased my projects and skills with a simple and effective design. I later completely rebuilt it using Next.js, improving the style, performance, and adding new features for a better user experience.",
     "portFolioLink": "https://portfolio-remi-dubus.vercel.app/",
     "portFolioGitHub": "https://github.com/Remi-Dubus/Portfolio",
     "portFolioTechno": ["typescript", "tailwind", "react"],
 
     "geocodeName": "Geocode",
+    "geocodeAlt" : "Screenshot of Geocode website.",
     "geocodeResume": "Group project presented during the final certification exam.",
     "geocodeText": "GeoCode is a collaborative platform designed to simplify the management and location of charging stations for electric vehicle users. Developed as a team project during my training, it helped me gain hands-on experience with backend development using Express.js and JWT combined with a MySQL database. I learned how to build secure RESTful APIs, handle CRUD operations, and manage server-database communication in a real-world environment.",
     "geocodeLink": "#",
@@ -78,6 +83,7 @@
     "geocodeTechno": ["typescript", "tailwind", "react", "node", "express", "JWT", "mysql"],
 
     "fournilExpressName": "Fournil Express",
+    "fournilExpressAlt" : "Screenshot of Fournil Express website.",
     "fournilExpressResume": "A personal project, the first one built with Next.js.",
     "fournilExpressText": "Fournil Express is a personal website and my first project built with Next.js. It facilitates the connection between restaurant and bakery professionals to simplify product order management. This project allowed me to discover the fundamentals of Next.js and NextAuth as well as work with a PostgreSQL database.",
     "fournilExpressLink": "https://fournil-express.vercel.app/",

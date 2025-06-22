@@ -65,6 +65,7 @@ export default function Projects() {
                         key={el.index}
                         index={index}
                         name={el.name}
+                        alt={el.alt}
                         resume={el.resume}
                         mobilePicture={el.mobilePicture}
                         activeSlide={activeSlide}

@@ -39,6 +39,7 @@ export type translationType = {
     },
     projects: {
         croustiEatName: string;
+        croustiEatAlt : string;
         croustiEatResume: string;
         croustiEatText: string;
         croustiEatLink: string;
@@ -46,6 +47,7 @@ export type translationType = {
         croustiEatTechno: string[];
 
         buyAPlanetName: string;
+        buyAPlanetAlt : string;
         buyAPlanetResume: string;
         buyAPlanetText: string;
         buyAPlanetLink: string;
@@ -53,6 +55,7 @@ export type translationType = {
         buyAPlanetTechno: string[];
 
         eShopName: string;
+        eShopAlt: string;
         eShopResume: string;
         eShopText: string;
         eShopLink: string;
@@ -60,6 +63,7 @@ export type translationType = {
         eShopTechno: string[];
 
         boarderLineName: string;
+        boarderLineAlt: string;
         boarderLineResume: string;
         boarderLineText: string;
         boarderLineLink: string;
@@ -67,6 +71,7 @@ export type translationType = {
         boarderLineTechno: string[];
 
         portFolioName: string;
+        portFolioAlt: string;
         portFolioResume: string;
         portFolioText: string;
         portFolioLink: string;
@@ -74,6 +79,7 @@ export type translationType = {
         portFolioTechno: string[];
 
         geocodeName: string;
+        geoCodeAlt: string;
         geocodeResume: string;
         geocodeText: string;
         geocodeLink: string;
@@ -81,6 +87,7 @@ export type translationType = {
         geocodeTechno: string[];
 
         fournilExpressName: string;
+        fournilExpressAlt: string;
         fournilExpressResume: string;
         fournilExpressText: string;
         fournilExpressLink: string;
@@ -128,6 +135,7 @@ export type languageType = {
 export type projectType = {
     index?: number;
     name?: string;
+    alt?: string;
     resume?: string;
     text?: string;
     link?: string;
