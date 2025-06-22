@@ -34,10 +34,10 @@ export default function ProjectCard(
                     )}
 
                     <figcaption
-                        className={`absolute bottom-0 left-0 w-full h-1/2 z-30 flex flex-col justify-center gap-4 bg-black/70 text-light p-1 rounded-b-lg transition-all duration-500 scale-100 group-hover:opacity-100 lg:rounded-lg lg:opacity-0 lg:scale-95 lg:group-hover:scale-100 lg:top-0 lg:h-full`}
+                        className={`absolute bottom-0 left-0 w-full h-1/2 z-30 flex flex-col justify-center gap-4 bg-black/80 text-light p-1 rounded-b-lg transition-all duration-500 scale-100 group-hover:opacity-100 transform duration-1000 ease-in-out lg:translate-y-20 lg:group-hover:translate-y-0 lg:opacity-0 lg:scale-95 lg:group-hover:scale-100`}
                     >
-                        <h3 className={`text-xl mb-2 sm:text-2xl lg:text-xl ${titleFont.className}`}>{name}</h3>
-                        <p className="sm:text-xl lg:text-sm">{resume}</p>
+                        <h3 className={`text-xl mb-2 sm:text-2xl lg:text-xl 2xl:text-2xl ${titleFont.className}`}>{name}</h3>
+                        <p className="sm:text-xl lg:text-lg 2xl:text-xl">{resume}</p>
                     </figcaption>
                 </figure>
             </Link>
