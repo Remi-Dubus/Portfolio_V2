@@ -7,8 +7,10 @@
   "navbar": {
     "about": "A propos",
     "aboutLink": "/#about",
+    "skills": "Compétences",
+    "skillsLink": "/#skills",
     "projects": "Mes projets",
-    "projectsLink": "/#projects",
+    "projectsLink": "/#project",
     "contact": "Contact",
     "contactLink": "/#contact"
   },
@@ -70,17 +72,22 @@
 
     "geocodeName": "Geocode",
     "geocodeResume": "Projet de groupe, présenté lors du passage de titre.",
-    "geocodeText": "GeoCode est une plateforme conçue pour faciliter la gestion et la localisation des bornes de recharge destinées aux utilisateurs de véhicules électriques. Réalisé en équipe dans le cadre de ma formation, ce projet m’a permis de me familiariser avec le développement backend en utilisant Express.js associé à une base de données MySQL. J’ai ainsi appris à créer des API REST sécurisées, gérer les opérations CRUD, et assurer la communication entre serveur et base de données dans un environnement réel.",
+    "geocodeText": "GeoCode est une plateforme conçue pour faciliter la gestion et la localisation des bornes de recharge destinées aux utilisateurs de véhicules électriques. Réalisé en équipe dans le cadre de ma formation, ce projet m’a permis de me familiariser avec le développement backend en utilisant Express.js et JWT associé à une base de données MySQL. J’ai ainsi appris à créer des API REST sécurisées, gérer les opérations CRUD, et assurer la communication entre serveur et base de données dans un environnement réel.",
     "geocodeLink": "#",
     "geocodeGitHub": "https://github.com/Remi-Dubus/Geocode",
     "geocodeTechno": ["typescript", "tailwind", "react", "node", "express", "JWT", "mysql"],
 
     "fournilExpressName": "Fournil Express",
     "fournilExpressResume": "Un projet personnel, le premier réalisé avec Next.js",
-    "fournilExpressText": "Fournil Express est un site web personnel, mon premier projet réalisé avec Next.js. Il facilite la mise en relation entre les professionnels de la restauration et de la boulangerie pour simplifier la gestion des commandes de produits. Ce projet m’a permis de découvrir les fondamentaux de Next.js, ainsi que de manipuler une base de données PostgreSQL.",
+    "fournilExpressText": "Fournil Express est un site web personnel, mon premier projet réalisé avec Next.js. Il facilite la mise en relation entre les professionnels de la restauration et de la boulangerie pour simplifier la gestion des commandes de produits. Ce projet m’a permis de découvrir les fondamentaux de Next.js, de NextAuth, ainsi que de manipuler une base de données PostgreSQL.",
     "fournilExpressLink": "https://fournil-express.vercel.app/",
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
     "fournilExpressTechno": ["typescript", "tailwind", "next", "JWT", "postgresql"]
+  },
+  "projectPage": {
+    "gitHubLink": "Lien vers le dépot GitHub.",
+    "deployedWebSite": "Lien vers le site déployé.",
+    "notDeployedWebSite": "Site non déployé."
   },
   "contact": {
     "contactTitle": "Envoyez-moi un message!",

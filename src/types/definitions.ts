@@ -10,6 +10,8 @@ export type translationType = {
     navbar: {
         about: string;
         aboutLink: string;
+        skills: string;
+        skillsLink: string;
         projects: string;
         projectsLink: string;
         contact: string;
@@ -85,6 +87,11 @@ export type translationType = {
         fournilExpressGitHub: string;
         fournilExpressTechno: string[];
     };
+    projectPage: {
+        gitHubLink: string;
+        deployedWebSite: string;
+        notDeployedWebSite: string;
+    };
     contact: {
         contactTitle: string;
         contactName: string;
@@ -128,6 +135,7 @@ export type projectType = {
     techno?: string[];
     activeSlide?: number;
     mobilePicture?: StaticImageData;
+    desktopPicture?: StaticImageData;
 };
 
 export type arrowType = {
