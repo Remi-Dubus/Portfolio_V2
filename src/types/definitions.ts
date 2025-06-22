@@ -79,7 +79,7 @@ export type translationType = {
         portFolioTechno: string[];
 
         geocodeName: string;
-        geoCodeAlt: string;
+        geocodeAlt: string;
         geocodeResume: string;
         geocodeText: string;
         geocodeLink: string;
