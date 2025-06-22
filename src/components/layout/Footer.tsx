@@ -8,16 +8,16 @@ export default function Footer() {
 
     return (
         <footer className="h-30 flex flex-col items-center text-light justify-center w-full gap-2 sm:text-lg sm:h-50 lg:text-xl">
-            <p>
+            <p className="text-center">
                 Portfolio | Rémi Dubus &copy;2025
             </p>
-            <p>
+            <p className="text-center">
                 {translations.footer.freepikText}
                 <Link href="http://www.freepik.com" className="text-interest relative inline-block after:absolute after:left-0 after:-bottom-0 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest">
                     {translations.footer.freepikLink}
                 </Link>
             </p>
-            <p>
+            <p className="text-center">
                 {translations.footer.simpleIconsText}
                 <Link href="https://simpleicons.org/" className="text-interest relative inline-block after:absolute after:left-0 after:-bottom-0 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest">
                     {translations.footer.simpleIconsLink}

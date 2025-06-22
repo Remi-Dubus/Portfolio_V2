@@ -59,7 +59,7 @@ export function convertAboutTranslation(translations: Record<string, string>): {
 
 export function convertProjectsTranslation(translations: Record<string, string | string[]>): projectType[] {
     const currentPropsObject = (key: string): string => {
-        return key.match(/(Name|Text|Resume|Link|GitHub|Techno)$/)?.[0] || "";
+        return key.match(/(Name|Text|Alt|Resume|Link|GitHub|Techno)$/)?.[0] || "";
     };
 
     const newTranslationProjects: projectType[] = [];
@@ -72,6 +72,8 @@ export function convertProjectsTranslation(translations: Record<string, string |
         if (previousKey.slice(0, 4) === key.slice(0, 4)) {
             if(currentProps === "Resume" && typeof value === "string") {
                 element.resume = value;
+            } else if(currentProps === "Alt" && typeof value === "string") {
+                element.alt = value;
             } else if(currentProps === "Text" && typeof value === "string") {
                 element.text = value;
             } else if(currentProps === "Link" && typeof value === "string") {
