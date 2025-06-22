@@ -69,6 +69,7 @@
 
     "portFolioName": "My first PortFolio",
     "portFolioAlt" : "Screenshot of my first portfolio.",
+    "portFolioResume": "My first portfolio, developed with React during my training.",
     "portFolioText": "This portfolio is the first version of my personal website. It showcased my projects and skills with a simple and effective design. I later completely rebuilt it using Next.js, improving the style, performance, and adding new features for a better user experience.",
     "portFolioLink": "https://portfolio-remi-dubus.vercel.app/",
     "portFolioGitHub": "https://github.com/Remi-Dubus/Portfolio",
