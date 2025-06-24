@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
@@ -30,11 +30,16 @@ export default function Contact() {
         reset();
     }, [language]);
 
+    const[loading, setLoading] = useState<boolean>(false);
+
     const onSubmitContactForm = async (contactForm: contactFormType) => {
+        setLoading(true);
+
         const response = await sendEmail(contactForm);
 
         if(response.success) {
             toast.success(translations.contact.contactSuccess);
+            setLoading(false);
             reset();
         } else {
             toast.error(translations.contact.contactError);
@@ -137,7 +142,7 @@ export default function Contact() {
                     </label>
                     <p className="text-error sm:text-lg">{errors.text?.message}</p>
                 </section>
-                <button type="submit" className="mb-4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2 sm:text-lg sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:text-2xl">{translations.contact.contactButton}</button>
+                <button type="submit" className={`mb - 4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 sm:text-lg sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:text-2xl ${loading ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2"}`}>{translations.contact.contactButton}</button>
             </form>
         </article>
     );
