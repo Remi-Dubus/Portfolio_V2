@@ -50,7 +50,7 @@ export default function Contact() {
         <article id="contact" className="min-h-[70%] flex flex-col mb-18 sm:p-4 lg:h-fit xl:px-20">
             <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:mb-8 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
             <form
-                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-8 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-10 lg:grid lg:grid-cols-4 xl:pt-0"
+                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-3 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-10 lg:grid lg:grid-cols-4 xl:pt-0"
                 onSubmit={handleSubmit(onSubmitContactForm)}
             >
                 <section className="relative mt-4 h-fit lg:mt-0 lg:col-span-2">
