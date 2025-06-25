@@ -11,7 +11,7 @@ export default function About() {
     const about = convertAboutTranslation(translations.about);
 
     return (
-        <article id="about" className="min-h-screen mb-18 p-1 sm:p-4 xl:flex xl:flex-col xl:px-20">
+        <article id="about" className="absolute top-[100vh] min-h-screen mb-18 p-1 sm:p-4 xl:flex xl:flex-col xl:px-20">
             <figure className="relative px-1 vsm:p-4">
                 <h2 className={`text-2xl text-interest text-center sm:text-4xl lg:mb-8 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.about.aboutTitle}</h2>
                 <Image
