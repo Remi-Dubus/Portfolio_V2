@@ -142,7 +142,7 @@ export default function Contact() {
                     </label>
                     <p className="text-error sm:text-lg">{errors.text?.message}</p>
                 </section>
-                <button type="submit" className={`mb - 4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 sm:text-lg sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:text-2xl ${loading ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2"}`}>{translations.contact.contactButton}</button>
+                <button type="submit" className={`mb - 4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 sm:text-xl sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:w-1/2 xl:text-2xl ${loading ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2"}`}>{translations.contact.contactButton}</button>
             </form>
         </article>
     );
