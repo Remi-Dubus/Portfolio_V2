@@ -21,12 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-        <head>
-            <link rel="icon" href="/favicon.ico" />
-        </head>
         <LangProvider>
             <body
-                className={`${paragraphFont.className} antialiased bg-gradient-to-b from-shadow via-dark to-active-dark`}
+                className={`${paragraphFont.className} antialiased bg-gradient-to-b from-shadow via-dark to-active-dark overflow-hidden`}
             >
                 <Banner />
                 <NavBar />
