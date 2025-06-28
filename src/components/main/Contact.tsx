@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
@@ -30,11 +30,16 @@ export default function Contact() {
         reset();
     }, [language]);
 
+    const[loading, setLoading] = useState<boolean>(false);
+
     const onSubmitContactForm = async (contactForm: contactFormType) => {
+        setLoading(true);
+
         const response = await sendEmail(contactForm);
 
         if(response.success) {
             toast.success(translations.contact.contactSuccess);
+            setLoading(false);
             reset();
         } else {
             toast.error(translations.contact.contactError);
@@ -45,7 +50,7 @@ export default function Contact() {
         <article id="contact" className="min-h-[70%] flex flex-col mb-18 sm:p-4 lg:h-fit xl:px-20">
             <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:mb-8 xl:text-5xl xl:mb-20 ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
             <form
-                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-8 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-10 lg:grid lg:grid-cols-4 xl:pt-0"
+                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-3 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-10 lg:grid lg:grid-cols-4 xl:pt-0"
                 onSubmit={handleSubmit(onSubmitContactForm)}
             >
                 <section className="relative mt-4 h-fit lg:mt-0 lg:col-span-2">
@@ -137,7 +142,7 @@ export default function Contact() {
                     </label>
                     <p className="text-error sm:text-lg">{errors.text?.message}</p>
                 </section>
-                <button type="submit" className="mb-4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2 sm:text-lg sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:text-2xl">{translations.contact.contactButton}</button>
+                <button type="submit" className={`mb - 4 shadow-shadow shadow-md w-1/4 mx-auto rounded-lg h-8 sm:text-xl sm:h-12 sm:w-1/3 lg:col-start-2 lg:text-xl lg:col-span-2 xl:w-1/2 xl:text-2xl ${loading ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-dark text-light active:scale-110 hover:bg-interest hover:text-dark focus:border-interest focus:border-2"}`}>{translations.contact.contactButton}</button>
             </form>
         </article>
     );
