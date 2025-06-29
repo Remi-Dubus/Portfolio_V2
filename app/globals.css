@@ -36,9 +36,12 @@
   --animate-float: float 8s ease-in-out infinite;
   --animate-invert-float: invert-float 8s ease-in-out infinite;
   --breakpoint-vsm: 20.5rem;
+  --breakpoint-ls: 48rem;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 3em;
 }
+
 
