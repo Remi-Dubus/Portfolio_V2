@@ -114,6 +114,11 @@
     "minCharText": "Minimum of 50 characters required.",
     "maxChar": "Too many characters."
   },
+  "notFound": {
+    "notFoundPart1": "This page is lost in the interstellar void. Perhaps you should head back to the ",
+    "notFoundLink": "main page",
+    "notFoundPart2" : " to get back on course."
+  },
   "footer": {
     "freepikText": "Pictures designed by ",
     "freepikLink": "rawpixel.com / Freepik",

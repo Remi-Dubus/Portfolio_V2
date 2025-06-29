@@ -24,7 +24,7 @@ export default function About() {
                 />
                 <figcaption>
                     {about.map((e) => (
-                        <p key={e.key} className="text-light text-sm mt-1 vsm:text-md vsm:mt-2 sm:mt-2 sm:text-xl lg:text-lg xl:text-xl 2xl:text-3xl">
+                        <p key={e.key} className="text-light text-sm mt-1 vsm:text-base vsm:mt-2 sm:mt-2 sm:text-xl lg:text-lg xl:text-xl 2xl:text-3xl">
                             {e.about}
                         </p>
                     ))}
