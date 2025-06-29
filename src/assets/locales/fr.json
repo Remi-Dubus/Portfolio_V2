@@ -114,6 +114,11 @@
     "minCharText": "Le minimum de caractères est de 50.",
     "maxChar": "Trop de caractères."
   },
+  "notFound": {
+    "notFoundPart1": "Cette page est perdue dans le vide interstellaire. Peut-être devriez-vous retourner à la ",
+    "notFoundLink": "page principale",
+    "notFoundPart2" : " pour retrouver votre cap."
+  },
   "footer": {
     "freepikText": "Images conçu par ",
     "freepikLink": "rawpixel.com / Freepik",

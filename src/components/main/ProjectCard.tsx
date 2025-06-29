@@ -36,7 +36,7 @@ export default function ProjectCard(
                     <figcaption
                         className={`absolute bottom-0 left-0 w-full h-1/2 z-30 flex flex-col gap-2 bg-black/80 text-light p-1 rounded-b-lg transition-all duration-500 scale-100 group-hover:opacity-100 transform duration-1000 ease-in-out lg:translate-y-20 lg:group-hover:translate-y-0 lg:opacity-0 lg:scale-95 lg:group-hover:scale-100 lg:h-4/6 lg:group-hover:z-20 xl:h-1/2`}
                     >
-                        <h3 className={`text-interest text-xlS text-center sm:text-2xl lg:text-xl xl:text-3xl ${titleFont.className}`}>{name}</h3>
+                        <h3 className={`text-interest text-xlS text-center sm:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl ${titleFont.className}`}>{name}</h3>
                         <p className="sm:text-xl lg:text-base 2xl:text-2xl">{resume}</p>
                     </figcaption>
                 </figure>

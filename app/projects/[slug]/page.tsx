@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname } from "next/navigation";
+import { notFound, usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,6 +18,12 @@ export default function  ProjectPages() {
     const projects = convertProjectsTranslation(translations.projects);
 
     const currentProject = compareSlugToProjectsName({ projects: projects, params});
+
+    console.log(currentProject)
+
+    if(!currentProject) {
+        notFound();
+    };
 
     return (
         <main className="min-h-[70vh] vsm:min-h-[18vh] sm:min-h-auto sm:h-auto lg:h-[25vh]">
