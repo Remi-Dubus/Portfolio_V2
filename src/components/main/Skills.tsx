@@ -6,7 +6,7 @@ export default function Skills() {
     const { translations } = useTranslation();
 
     return (
-        <article id="skills" className="min-h-96 mt-10 text-light p-1 sm:p-4 sm:text-xl sm:mt-16 ls:mt-0 lg:w-full sm:h-screen lg:snap-start lg:flex lg:flex-col lg:item-center 2xl:px-45">
+        <article id="skills" className="min-h-96 relative mt-14 text-light p-1 sm:p-4 sm:text-xl sm:mt-18 lg:w-full lg:h-screen lg:snap-start lg:flex lg:flex-col lg:item-center 2xl:px-45">
             <h2 className={`text-2xl text-interest col-span-3 h-fit mb-6 text-center sm:text-4xl lg:col-span-5 lg:relative lg:z-15 lg:mt-14 xl:text-5xl xl:mb-8 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.skills.skillsTitle}</h2>
             <ul className="text-light grid grid-cols-3 w-full mt-8 sm:mt-16 lg:px-16 lg:mt-0 xl:mt-8 lg:grid-cols-5 lg:mb-auto 2xl:h-[65vh] 2xl:text-2xl">
                 <li className="min-h-20 h-20 flex flex-col animate-float items-center gap-1 vsm:mb-4 sm:gap-2 sm:min-h-28 sm:h-28 lg:scale-80 xl:scale-100 2xl:scale-120">

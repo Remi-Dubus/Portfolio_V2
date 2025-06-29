@@ -55,9 +55,8 @@ export default function Projects() {
 
     const projects = convertProjectsTranslation(translations.projects);
 
-
     return (
-        <article id="project" className="min-h-96 mt-10 sm:mt-0 sm:p-4 sm:h-200 lg:p-4 lg:h-screen lg:snap-start">
+        <article id="project" className="relative min-h-96 mt-14 sm:p-4 sm:mt-18 lg:p-4 lg:h-screen lg:snap-start">
             <h2 className={`text-2xl text-interest text-center sm:text-4xl lg:mt-14 lg:relative lg:z-15 xl:text-5xl xl:mb-8 2xl:text-6xl ${titleFont.className}`}>{translations.navbar.projects}</h2>
             <Slider {...settings} className="mx-auto mt-2 vsm:mt-0 flex flex-col vsm:mb-4 sm:mb-0 sm:w-11/12 lg:w-full lg:mb-auto">
                 {projects.map((el, index) => (
