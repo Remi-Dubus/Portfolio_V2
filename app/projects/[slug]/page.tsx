@@ -10,6 +10,7 @@ import { useTranslation } from "@/context/LangContext";
 import { convertProjectsTranslation } from "@/utils/convertObjectToArray";
 import { compareSlugToProjectsName } from "@/utils/slug";
 import TechnoIcones from "@/components/ui/TechnoIcones";
+import Footer from "@/components/layout/Footer";
 
 export default function  ProjectPages() {
     const params = usePathname();
@@ -19,19 +20,17 @@ export default function  ProjectPages() {
 
     const currentProject = compareSlugToProjectsName({ projects: projects, params});
 
-    console.log(currentProject)
-
     if(!currentProject) {
         notFound();
     };
 
     return (
-        <main className="min-h-[70vh] vsm:min-h-[18vh] sm:min-h-auto sm:h-auto lg:h-[25vh]">
-            <article className="absolute top-16 px-2 vsm:px-5 gap-4 flex flex-col items-center justify-center sm:top-24 lg:px-10 lg:grid lg:grid-cols-2 lg:top-38 2xl:top-45 2xl:mx-30">
-                <figcaption className={`text-2xl text-center text-interest sm:text-4xl xl:text-5xl lg:absolute lg:-top-14 lg:left-10 2xl:-top-20 ${titleFont.className}`}>
+        <main className="relative min-h-screen flex flex-col justify-between sm:h-screen">
+            <article className="relative mt-8 px-2 vsm:px-5 gap-4 flex flex-col items-center justify-center lg:items-start lg:fixed lg:z-20 lg:top-1/4 lg:-translate-y-1/4 lg:px-10 lg:grid lg:grid-cols-2 2xl:top-60 2xl:mx-60">
+                <figcaption className={`text-2xl text-center text-interest sm:text-4xl lg:col-span-2 lg:text-start xl:text-5xl 2xl:px-20 ${titleFont.className}`}>
                     {currentProject?.name}
                 </figcaption>
-                <figure className="relative w-55 h-30 vsm:h-45 vsm:w-64 sm:h-70 sm:w-96 lg:w-[100%] xl:h-[30vw] lg:col-start-1 2xl:w-[40vw] 2xl:h-[50vh]">
+                <figure className="relative w-55 h-30 vsm:h-45 vsm:w-64 sm:h-70 sm:w-96 lg:mx-auto lg:h-[24vw] lg:col-start-2 xl:h-[28vw] xl:w-[40vw] 2xl:h-[22vw] 2xl:w-[36vw]">
                     {currentProject?.desktopPicture && currentProject?.name && currentProject?.alt && (
                         <Image
                             src={currentProject?.desktopPicture}
@@ -42,7 +41,7 @@ export default function  ProjectPages() {
                         />
                     )}
                 </figure>
-                <section className="w-full flex flex-col gap-2 items-center lg:col-start-1">
+                <section className="w-full flex flex-col gap-2 items-center lg:col-start-2">
                     {currentProject?.gitHub && (
                         <Link
                             href={currentProject?.gitHub}
@@ -61,13 +60,14 @@ export default function  ProjectPages() {
                         <p className="text-light vsm:text-md sm:text-xl xl:text-2xl">{translations.projectPage.notDeployedWebSite}</p>
                     )}
                 </section>
-                <section  className="min-h-[75vh] sm:px-20 sm:min-h-auto lg:col-start-2 lg:px-15 lg:row-start-1 lg:row-span-2">
-                    <p className="inline-block text-light vsm:text-md sm:text-xl xl:text-2xl">{currentProject?.text}</p>
+                <section  className="min-h-fit sm:px-20 sm:min-h-auto lg:col-start-1 lg:px-0 lg:row-start-2 lg:row-span-2 2xl:px-20">
+                    <p className="inline-block text-light vsm:text-md sm:text-xl lg:text-lg xl:text-2xl">{currentProject?.text}</p>
                     {currentProject?.techno && (
                         <TechnoIcones techno={currentProject?.techno} />
                     )}
                 </section>
             </article>
+            <Footer />
         </main>
     );
 }
