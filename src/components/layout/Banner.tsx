@@ -1,17 +1,17 @@
 "use client";
 
-import { titleFont } from "@/assets/fonts";
-
-import { useTranslation } from "@/context/LangContext";
-
 export default function Banner() {
-    const { translations } = useTranslation();
 
     return (
-        <header className="h-fit p-4 flex flex-col items-center justify-start overflow-hidden">
-            <section className="-mt-[1880px] h-[3000px] w-[3000px] bg-animation bg-no-repeat bg-center animate-spin-slow opacity-20 z-0 bg-contain vsm:-mt-[2350px] vsm:h-[3800px] vsm:w-[3800px] sm:-mt-[2880px] sm:h-[4700px] sm:w-[4700px]"
-                     style={{ backgroundImage: "url(/banner-animation.png" }}
-            > </section>
+        <header className="p-4 flex flex-col items-center justify-start overflow-hidden lg:relative">
+            <section className="fixed inset-0 bg-gradient-to-b z-0 from-shadow via-dark to-active-dark"/>
+            <section className="fixed -mt-[1980px] border-2 h-[3200px] overflow-hidden w-[3200px] bg-animation bg-no-repeat bg-center animate-spin-slow opacity-20 z-0 bg-contain vsm:-mt-[2800px] vsm:h-[4450px] vsm:w-[4450px] sm:-mt-[2900px] sm:h-[4640px] sm:w-[4640px] lg:-mt-760 lg:h-[4800px] lg:w-[4800px] -lg:translate-x-1/2 -lg:right-1/2"
+                     style={{
+                         backgroundImage: `
+                            url(/banner-animation.png)
+                         `,
+                     }}
+            />
         </header>
     )
 };

@@ -8,16 +8,17 @@ import About from "@/components/main/About";
 import Skills from "@/components/main/Skills";
 import Projects from "@/components/main/Projects";
 import Contact from "@/components/main/Contact";
-
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="h-screen lg:overflow-y-scroll lg:absolute lg:top-0 lg:w-screen lg:snap-y lg:snap-mandatory">
         <Title />
         <About />
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
     </main>
   );
 };

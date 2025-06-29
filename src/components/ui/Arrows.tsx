@@ -5,7 +5,7 @@ export function CustomNextArrow(props: arrowType) {
     const { onClick } = props
     return (
         <div
-            className="absolute right-[-20px] top-1/2 -translate-y-1/2 text-dark shadow-lg transition z-320 cursor-pointer p-2 rounded-full bg-white drop-shadow-[0_0_20px_#C6C6CF] hover:drop-shadow-none  hover:bg-dark hover:text-light"
+            className="absolute right-[-25px] top-1/3 translate-y-10 text-dark shadow-lg transition z-320 cursor-pointer p-2 rounded-full bg-white drop-shadow-[0_0_20px_#C6C6CF] hover:drop-shadow-none  hover:bg-dark hover:text-light"
             onClick={onClick}
         >
             <ChevronRight size={28} />
@@ -17,7 +17,7 @@ export function CustomPrevArrow(props: arrowType) {
     const { onClick } = props
     return (
         <div
-            className="absolute left-[-20px] top-1/2 -translate-y-1/2 text-dark shadow-lg transition z-320 cursor-pointer p-2 rounded-full bg-white drop-shadow-[0_0_20px_#C6C6CF] hover:drop-shadow-none  hover:bg-dark hover:text-light"
+            className="absolute left-[-20px] top-1/3 translate-y-10  text-dark shadow-lg transition z-320 cursor-pointer p-2 rounded-full bg-white drop-shadow-[0_0_20px_#C6C6CF] hover:drop-shadow-none  hover:bg-dark hover:text-light"
             onClick={onClick}
         >
             <ChevronLeft size={28} />
