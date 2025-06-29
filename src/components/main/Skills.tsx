@@ -6,8 +6,8 @@ export default function Skills() {
     const { translations } = useTranslation();
 
     return (
-        <article id="skills" className="min-h-screen mt-42 text-light p-1 vsm:mt-30 sm:mt-70 sm:p-4 sm:text-xl sm:p-4 lg:mt-0 lg:w-full lg:h-screen lg:snap-start lg:flex lg:flex-col lg:item-center 2xl:px-45">
-            <h2 className={`text-2xl text-interest col-span-3 h-fit text-center sm:text-4xl lg:mt-12 lg:col-span-5 lg:mt-14 xl:text-5xl xl:mb-8 2xl:mt-26 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.skills.skillsTitle}</h2>
+        <article id="skills" className="min-h-screen mt-42 text-light p-1 vsm:mt-30 sm:mt-70 sm:p-4 sm:text-xl lg:mt-0 lg:w-full lg:h-screen lg:snap-start lg:flex lg:flex-col lg:item-center 2xl:px-45">
+            <h2 className={`text-2xl text-interest col-span-3 h-fit text-center sm:text-4xl lg:col-span-5 lg:relative lg:z-15 lg:mt-14 xl:text-5xl xl:mb-8 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.skills.skillsTitle}</h2>
             <div className="text-light grid grid-cols-3 w-full lg:px-16 lg:mt-4 lg:grid-cols-5 lg:mb-auto 2xl:h-[65vh] 2xl:text-2xl">
                 <section className="min-h-20 h-20 flex flex-col animate-float items-center gap-1 vsm:mb-4 sm:gap-2 sm:min-h-28 sm:h-28 lg:scale-80 xl:scale-100 2xl:scale-120">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className="min-h-10 max-h-10 vsm:max-h-14 vsm:h-14 sm:max-h-28 sm:h-28 ">

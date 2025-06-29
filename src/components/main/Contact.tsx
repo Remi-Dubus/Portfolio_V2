@@ -48,7 +48,7 @@ export default function Contact() {
 
     return  (
         <article id="contact" className="min-h-[70%] flex flex-col mb-18 sm:p-4 lg:h-screen lg:snap-start lg:mb-0 xl:px-20 2xl:px-40">
-            <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:mb-4 lg:mt-14 xl:text-5xl xl:mb-10 2xl:mt-26 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
+            <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:z-15 lg:mb-4 lg:mt-14 xl:text-5xl xl:mb-10 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
             <form
                 className="w-11/12 h-fit mx-auto flex flex-col item-center pt-3 gap-4 sm:w-2/3 xl:w-1/2 lg:h-auto lg:gap-7 lg:grid lg:grid-cols-4 xl:pt-0"
                 onSubmit={handleSubmit(onSubmitContactForm)}
@@ -132,7 +132,7 @@ export default function Contact() {
                         })}
                         id="text"
                         placeholder=" "
-                        className="w-full peer h-[50vw] overflow-y-auto resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-90 sm:text-lg lg:h-50 xl:h-74 2xl:h-110"
+                        className="w-full peer h-[50vw] overflow-y-auto resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-90 sm:text-lg lg:h-50 xl:h-74 2xl:h-90"
                     />
                     <label
                         htmlFor="text"
