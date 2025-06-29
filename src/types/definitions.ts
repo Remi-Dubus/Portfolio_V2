@@ -117,6 +117,11 @@ export type translationType = {
         minCharText: string;
         maxChar: string;
     };
+    notFound: {
+        notFoundPart1: string;
+        notFoundLink: string;
+        notFoundPart2: string
+    },
     footer: {
         freepikText: string;
         freepikLink: string;
