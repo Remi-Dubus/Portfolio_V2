@@ -33,7 +33,7 @@ export default function Projects() {
                     nextArrow: <CustomNextArrow />,
                     prevArrow: <CustomPrevArrow />,
                     draggable: true,
-                    speed: 2000,
+                    speed: 1750,
                     autoplaySpeed: 3800,
                     slidesToShow: 2,
                 },
@@ -43,7 +43,7 @@ export default function Projects() {
                 settings: {
                     arrows: false,
                     draggable: true,
-                    speed: 2000,
+                    speed: 1250,
                     autoplaySpeed: 3800,
                     slidesToShow: 1,
                 },
