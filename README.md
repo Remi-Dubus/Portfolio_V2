@@ -1,6 +1,8 @@
 # Portfolio - Version 2
 
-## 🇫🇷 Version française
+---
+
+##  <ins>Version française</ins>
 
 Refonte de mon portfolio personnel avec **Next.js**.  
 Cette nouvelle version apporte plusieurs améliorations :
@@ -10,11 +12,11 @@ Cette nouvelle version apporte plusieurs améliorations :
 - Design et expérience utilisateur retravaillés
 - Mise en ligne sur un **nom de domaine personnalisé**
 
-🔗 [Accéder à la version 2 de mon portfolio](https://www.remi-dubus.fr/)
+[Accéder à la version 2 de mon portfolio](https://www.remi-dubus.fr/)
 
----
 
-## 🇬🇧 English Version
+
+## <ins>English Version</ins>
 
 Redesign of my personal portfolio using **Next.js**.  
 This new version includes several improvements:
@@ -24,6 +26,6 @@ This new version includes several improvements:
 - Refined design and user experience
 - Deployed on a **custom domain name**
 
-🔗 [View the version 2 of my portfolio](https://www.remi-dubus.fr/)
+[View the version 2 of my portfolio](https://www.remi-dubus.fr/)
 
 
