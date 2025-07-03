@@ -9,6 +9,7 @@ import { titleFont } from "@/assets/fonts";
 import { useTranslation } from "@/context/LangContext";
 import { convertProjectsTranslation } from "@/utils/convertObjectToArray";
 import { compareSlugToProjectsName } from "@/utils/slug";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 import TechnoIcones from "@/components/ui/TechnoIcones";
 import Footer from "@/components/layout/Footer";
 
@@ -26,11 +27,12 @@ export default function  ProjectPages() {
 
     return (
         <main className="relative min-h-screen flex flex-col justify-between sm:h-screen">
+            <ScrollToTop />
             <article className="relative mt-8 px-2 vsm:px-5 gap-4 flex flex-col items-center justify-center lg:items-start lg:fixed lg:z-20 lg:top-1/4 lg:-translate-y-1/4 lg:px-10 lg:grid lg:grid-cols-2 2xl:top-60 2xl:mx-60">
-                <figcaption className={`text-2xl text-center text-interest sm:text-4xl lg:col-span-2 lg:text-start xl:text-5xl 2xl:px-20 ${titleFont.className}`}>
+                <figcaption className={`text-2xl text-center text-interest sm:text-4xl lg:text-start xl:text-5xl 2xl:px-20 ${titleFont.className}`}>
                     {currentProject?.name}
                 </figcaption>
-                <figure className="relative w-55 h-30 vsm:h-45 vsm:w-64 sm:h-70 sm:w-96 lg:mx-auto lg:h-[24vw] lg:col-start-2 xl:h-[28vw] xl:w-[40vw] 2xl:h-[22vw] 2xl:w-[36vw]">
+                <figure className="relative w-55 h-30 vsm:h-45 vsm:w-64 sm:h-70 sm:w-96 lg:mx-auto lg:mt-4 lg:h-[51vh] lg:w-[40vw] lg:col-start-2 lg:row-span-2 xl:w-[43vw] 2xl:h-[45vh] 2xl:w-[34vw] 2xl:mt-10">
                     {currentProject?.desktopPicture && currentProject?.name && currentProject?.alt && (
                         <Image
                             src={currentProject?.desktopPicture}
@@ -41,7 +43,7 @@ export default function  ProjectPages() {
                         />
                     )}
                 </figure>
-                <section className="w-full flex flex-col gap-2 items-center lg:col-start-2">
+                <section className="w-full flex flex-col gap-2 items-center mx-auto lg:col-start-2 lg:w-[40vw] xl:w-[43vw] 2xl:w-[34vw]">
                     {currentProject?.gitHub && (
                         <Link
                             href={currentProject?.gitHub}
@@ -53,7 +55,7 @@ export default function  ProjectPages() {
                     {currentProject?.link && currentProject?.link !== "#" ? (
                         <Link
                             href={currentProject?.link}
-                            className="text-interest relative inline-block after:absolute after:left-0 after:-bottom-0 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest vsm:text-md sm:text-xl xl:text-2xl"
+                            className="text-interest relative inline-block after:absolute after:left-0 after:-bottom-0 after:h-0.5 after:w-0 after:bg-interest after:transition-all after:duration-600 hover:after:w-full active:text-active-interest vsm:text-md sm:text-xl lg:my-1 xl:text-2xl xl:my-2"
                         >
                             {translations.projectPage.deployedWebSite}</Link>
                     ) : (
