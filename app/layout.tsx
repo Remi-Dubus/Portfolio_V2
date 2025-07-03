@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="fr">
         <LangProvider>
             <body
-                className={`${paragraphFont.className} antialiased`}
+                className={`${paragraphFont.className} antialiased h-screen overflow-x-hidden`}
             >
                 <Banner />
                 <NavBar />
