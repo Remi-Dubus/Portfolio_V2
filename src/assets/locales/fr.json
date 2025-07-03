@@ -85,7 +85,7 @@
 
     "fournilExpressName": "Fournil Express",
     "fournilExpressAlt" : "Capture d'écran du site Fournil Express.",
-    "fournilExpressResume": "Un projet personnel, le premier réalisé avec Next.js",
+    "fournilExpressResume": "Un projet personnel, le premier réalisé avec Next.js.",
     "fournilExpressText": "Fournil Express est un site web personnel, mon premier projet réalisé avec Next.js. Il facilite la mise en relation entre les professionnels de la restauration et de la boulangerie pour simplifier la gestion des commandes de produits. Ce projet m’a permis de découvrir les fondamentaux de Next.js, de NextAuth, ainsi que de manipuler une base de données PostgreSQL.",
     "fournilExpressLink": "https://fournil-express.vercel.app/",
     "fournilExpressGitHub": "https://github.com/Remi-Dubus/Fournil_express",
