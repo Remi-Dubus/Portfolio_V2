@@ -53,7 +53,7 @@ export default function Contact() {
                 className="w-11/12 h-fit mx-auto flex flex-col item-center pt-1 gap-4 sm:pt-4 sm:w-2/3 lg:h-auto lg:gap-7 lg:grid lg:grid-cols-4 xl:pt-0 xl:w-1/2"
                 onSubmit={handleSubmit(onSubmitContactForm)}
             >
-                <section className="relative mt-4 h-fit lg:mt-0 lg:col-span-2">
+                <section className="relative mt-4 h-fit vsm:mt-8 lg:mt-0 lg:col-span-2">
                     <input
                         {...register("name", {
                                 required: translations.errorMessage.required,
