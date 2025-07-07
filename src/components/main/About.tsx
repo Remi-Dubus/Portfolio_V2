@@ -31,5 +31,5 @@ export default function About() {
                 </figcaption>
             </figure>
         </article>
-    )
-}
+    );
+};

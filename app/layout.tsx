@@ -11,7 +11,7 @@ import { LangProvider } from "@/context/LangContext";
 
 export const metadata: Metadata = {
   title: "Portfolio | Rémi Dubus",
-  description: "Junior web developer with skills in HTML, CSS, Typescript, Vite, React.js, Next.js, Node.js, Express.js & MySQL.",
+  description: "Junior web developer with skills in HTML, CSS, Typescript, Vite, React.js, Next.js, Node.js, Express.js, PostgreSQL and MySQL.",
 };
 
 export default function RootLayout({
