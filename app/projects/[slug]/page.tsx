@@ -26,7 +26,7 @@ export default function  ProjectPages() {
     };
 
     return (
-        <main className="relative overflow-x-hidden min-h-screen flex flex-col justify-between sm:h-screen">
+        <main className="relative overflow-x-hidden min-h-screen mt-8 flex flex-col justify-between sm:h-screen">
             <ScrollToTop />
             <article className="relative mt-8 px-2 vsm:px-5 gap-4 flex flex-col items-center justify-center lg:items-start lg:fixed lg:z-20 lg:top-1/4 lg:-translate-y-1/4 lg:px-10 lg:grid lg:grid-cols-2 2xl:top-60 2xl:mx-60">
                 <figcaption className={`text-2xl text-center text-interest sm:text-4xl lg:text-start xl:text-5xl 2xl:px-20 ${titleFont.className}`}>
@@ -69,7 +69,9 @@ export default function  ProjectPages() {
                     )}
                 </section>
             </article>
-            <Footer />
+            <article className="lg:hidden">
+                <Footer />
+            </article>
         </main>
     );
 }

@@ -7,7 +7,7 @@ export default function Footer() {
     const { translations } = useTranslation()
 
     return (
-        <footer className="relative overflow-hidden z-[1] h-30 text-sm flex mt-4 flex-col items-center text-light mx-auto justify-center border-t-2 w-5/6 gap-2 vsm:text-base vsm:h-36 sm:text-lg sm:py-8 lg:h-28 lg:fixed lg:bottom-0 lg:translate-x-1/2 lg:right-1/2 lg:text-xl 2xl:h-40">
+        <footer className="h-30 text-sm flex mt-4 flex-col items-center text-light mx-auto justify-center border-t-2 w-5/6 gap-1 vsm:gap-2 vsm:text-base vsm:h-36 sm:text-lg sm:py-8 lg:h-28 lg:gap-1 xl:text-xl 2xl:gap-2 2xl:h-40">
             <p className="text-center">
                 Portfolio | Rémi Dubus &copy;2025
             </p>
