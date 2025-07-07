@@ -6,6 +6,7 @@ import { paragraphFont } from "@/assets/fonts";
 
 import Banner from "@/components/layout/Banner";
 import NavBar from "@/components/navigation/NavBar";
+import Footer from "@/components/layout/Footer";
 import { LangProvider } from "@/context/LangContext";
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({
     <html lang="fr">
         <LangProvider>
             <body
-                className={`${paragraphFont.className} antialiased h-screen`}
+                className={`${paragraphFont.className} antialiased h-screen overflow-hidden`}
             >
                 <Banner />
                 <NavBar />
