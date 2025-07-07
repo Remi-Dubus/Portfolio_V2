@@ -18,7 +18,9 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
-        <Footer />
+        <article className="lg:hidden">
+            <Footer />
+        </article>
     </main>
   );
 };

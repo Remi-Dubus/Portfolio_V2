@@ -39,7 +39,7 @@ export default function NavBar (){
                    ))}
                </ul>
                <article>
-                   <section className="fixed bottom-10 flex justify-center gap-8 w-full sm:mb-6 lg:flex lg:justify-end lg:bottom-2 lg:mr-20 lg:w-fit lg:right-4 xl:right-8 2xl:bottom-4 2xl:right-26">
+                   <section className="fixed bottom-10 flex justify-center gap-8 w-full sm:mb-6 lg:flex lg:justify-end lg:bottom-1 lg:mr-20 lg:w-fit lg:right-4 xl:right-8 2xl:bottom-4 2xl:right-26">
                        <Link href={translations.link.gitHubLink}>
                            <svg
                                xmlns="http://www.w3.org/2000/svg"
