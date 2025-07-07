@@ -11,8 +11,8 @@ export default function About() {
     const about = convertAboutTranslation(translations.about);
 
     return (
-        <article id="about" className="h-fit mt-8 p-1 sm:p-4 lg:relative lg:mt-0 lg:top-0 lg:h-screen lg:snap-start xl:flex xl:flex-col xl:px-20 2xl:px-45">
-            <figure className="relative h-fit px-1 vsm:p-4">
+        <article id="about" className="h-fit mt-8 p-1 sm:p-4 lg:relative lg:mt-0 lg:h-screen lg:snap-start xl:flex xl:flex-col xl:px-20 2xl:px-45">
+            <figure className="relative h-fit px-1 vsm:p-4 lg:my-2">
                 <h2 className={`text-2xl text-interest text-center sm:text-4xl lg:relative lg:mt-10 lg:z-15 xl:mb-8 xl:text-5xl 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.about.aboutTitle}</h2>
                 <Image
                     src="/remidubus.png"
@@ -31,5 +31,5 @@ export default function About() {
                 </figcaption>
             </figure>
         </article>
-    )
-}
+    );
+};

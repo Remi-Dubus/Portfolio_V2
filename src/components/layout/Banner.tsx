@@ -3,7 +3,7 @@
 export default function Banner() {
 
     return (
-        <header className="p-4 flex flex-col items-center justify-start overflow-hidden lg:relative">
+        <header className="flex flex-col items-center justify-start overflow-hidden lg:relative">
             <section
                 className="fixed inset-0 z-[-1] bg-gradient-to-b from-shadow via-dark to-active-dark transform-gpu will-change-transform"
             />
