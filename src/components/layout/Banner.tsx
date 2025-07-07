@@ -5,7 +5,7 @@ export default function Banner() {
     return (
         <header className="flex flex-col items-center justify-start overflow-x-hidden">
             <section
-                className="fixed top-0 left-0 w-full min-h-[100dvh] z-[-1] bg-gradient-to-b from-shadow via-dark to-active-dark"
+                className="fixed top-0 left-0 w-full min-h-[120dvh] z-[-1] bg-gradient-to-b from-shadow via-dark to-active-dark"
                 style={{
                     transform: 'translateZ(0)',
                     backfaceVisibility: 'hidden',
