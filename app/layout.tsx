@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="fr">
         <LangProvider>
             <body
-                className={`${paragraphFont.className} antialiased h-screen overflow-hidden flex flex-col`}
+                className={`${paragraphFont.className} antialiased min-h-screen overflow-hidden flex flex-col`}
             >
                 <Banner />
                 <NavBar />
