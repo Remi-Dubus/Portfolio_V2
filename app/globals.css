@@ -18,6 +18,13 @@
   }
 }
 
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3em;
+  }
+}
+
 @theme {
   --color-light: #C6C6CF;
   --color-dark: #070F18;
@@ -36,9 +43,4 @@
   --animate-float: float 8s ease-in-out infinite;
   --animate-invert-float: invert-float 8s ease-in-out infinite;
   --breakpoint-vsm: 20.5rem;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 3em;
 }

@@ -12,7 +12,7 @@ import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-x-hidden lg:overflow-y-scroll lg:absolute lg:top-0 lg:w-screen lg:snap-y lg:snap-mandatory">
+    <main className="h-screen lg:overflow-x-scroll lg:absolute lg:top-0 lg:w-screen lg:snap-y lg:snap-mandatory">
         <Title />
         <About />
         <Skills />
