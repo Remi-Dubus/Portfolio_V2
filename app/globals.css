@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3em;
+  }
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0)
@@ -15,13 +22,6 @@
   }
   50% {
     transform: translateY(0px)
-  }
-}
-
-@layer base {
-  html, body {
-    scroll-behavior: smooth;
-    scroll-padding-top: 3em;
   }
 }
 
