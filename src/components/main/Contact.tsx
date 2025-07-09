@@ -113,7 +113,7 @@ export default function Contact() {
                     </label>
                     <p className="mt-1.5 text-error sm:text-lg">{errors.email?.message}</p>
                 </section>
-                <section className="relative mt-5 h-fit lg:mt-4 lg:col-span-4">
+                <section className="relative mt-5 h-fit lg:mt-4 lg:col-span-4 2xl:mt-6">
                     <textarea
                         {...register("text", {
                             required: translations.errorMessage.required,
