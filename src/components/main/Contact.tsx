@@ -47,10 +47,10 @@ export default function Contact() {
     };
 
     return  (
-        <article id="contact" className="relative mt-2 flex flex-col sm:mt-0 sm:p-4 lg:h-screen lg:snap-start lg:my-0 xl:px-20 2xl:px-40">
-            <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:z-15 lg:mb-4 lg:mt-14 xl:text-5xl xl:mb-10 2xl:mb-12 2xl:text-6xl ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
+        <article id="contact" className="relative mt-2 flex flex-col sm:mt-0 sm:p-4 lg:h-screen lg:snap-start lg:my-0 xl:px-0 2xl:px-40">
+            <h2 className={`text-2xl text-center text-interest sm:text-4xl sm:text-center lg:z-15 lg:mb-4 lg:mt-14 xl:text-5xl xl:mb-10 2xl:mb-12 2xl:mb-18 2xl:text-6xl ${titleFont.className}`}>{translations.contact.contactTitle}</h2>
             <form
-                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-1 gap-4 sm:pt-4 sm:w-2/3 lg:h-auto lg:gap-7 lg:grid lg:grid-cols-4 xl:pt-0 xl:w-1/2"
+                className="w-11/12 h-fit mx-auto flex flex-col item-center pt-1 gap-4 sm:pt-4 sm:w-2/3 lg:w-16/25 lg:h-auto lg:grid lg:grid-cols-4 xl:w-16/28 xl:pt-0 2xl:w-1/2"
                 onSubmit={handleSubmit(onSubmitContactForm)}
             >
                 <section className="relative mt-4 h-fit vsm:mt-8 lg:mt-0 lg:col-span-2">
@@ -77,7 +77,7 @@ export default function Contact() {
                     />
                      <label
                         htmlFor="name"
-                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-1 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl xl:text-2xl 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
+                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-1 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl lg:-top-8 lg:z-20 2xl:text-2xl 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
                      >
                         {translations.contact.contactName}
                     </label>
@@ -107,13 +107,13 @@ export default function Contact() {
                     />
                     <label
                         htmlFor="email"
-                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-1 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl xl:text-2xl 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
+                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-1 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl lg:-top-8 lg:z-20 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
                     >
                         {translations.contact.contactMail}
                     </label>
                     <p className="mt-1.5 text-error sm:text-lg">{errors.email?.message}</p>
                 </section>
-                <section className="relative mt-5 h-fit lg:mt-0 lg:col-span-4 lg:row-span-6">
+                <section className="relative mt-5 h-fit lg:mt-4 lg:col-span-4">
                     <textarea
                         {...register("text", {
                             required: translations.errorMessage.required,
@@ -132,11 +132,11 @@ export default function Contact() {
                         })}
                         id="text"
                         placeholder=" "
-                        className="w-full peer h-[58vw] overflow-y-auto resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-90 sm:text-lg lg:h-48 xl:h-74 2xl:h-90"
+                        className="w-full peer h-[58vw] overflow-y-auto resize-none border-3 text-light rounded-lg placeholder-transparent focus:outline-none border-light focus:border-interest sm:h-90 sm:text-lg lg:h-36 xl:h-64 2xl:h-90"
                     />
                     <label
                         htmlFor="text"
-                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-1 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl xl:text-2xl 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
+                        className="absolute -top-5 text-light left-1 text-sm transition-all peer-placeholder-shown:top-0 peer-focus:left-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-7 peer-focus:text-lg peer-focus:text-interest sm:peer-placeholder-shown:text-lg sm:-top-7 sm:peer-focus:-top-8 sm:peer-focus:text-2xl sm:text-xl lg:-top-8 lg:z-20 2xl:peer-focus:-top-10 2xl:peer-focus:text-3xl"
                     >
                         {translations.contact.contactMessage}
                     </label>

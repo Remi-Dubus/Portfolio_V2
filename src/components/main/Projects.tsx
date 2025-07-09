@@ -8,7 +8,6 @@ import { convertProjectsTranslation } from "@/utils/convertObjectToArray";
 import { CustomNextArrow, CustomPrevArrow } from "@/components/ui/Arrows";
 import ProjectCard from "@/components/main/ProjectCard";
 
-
 export default function Projects() {
     const [activeSlide, setActiveSlide] = useState(0);
 
