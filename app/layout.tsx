@@ -41,7 +41,7 @@ export default function RootLayout({
                     theme="dark"
                     transition={Bounce}
                 />
-                <article className="hidden lg:block lg:absolute lg:bottom-0 lg:w-full">
+                <article className="hidden lg:block lg:absolute lg:z-10 lg:bottom-0 lg:w-full lg:backdrop:blur-md lg:bg-[linear-gradient(to_top,rgba(0,0,0,2),rgb(0,0,0,0.7),rgba(0,0,0,0))]">
                     <Footer />
                 </article>
             </body>
